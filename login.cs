@@ -17,6 +17,13 @@ namespace Activity7
             InitializeComponent();
         }
 
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            frmDashboard myform = new frmDashboard();
+            myform.Show();
+            this.Hide();
+        }
+
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -56,11 +63,6 @@ namespace Activity7
         private void label5_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-           
         }
 
         private void button1_Paint(object sender, PaintEventArgs e)
