@@ -62,7 +62,7 @@ namespace Activity7
 
         private void label5_Click(object sender, EventArgs e)
         {
-
+            label5.Font = new Font(label5.Font, FontStyle.Bold);
         }
 
         private void button1_Paint(object sender, PaintEventArgs e)
@@ -81,6 +81,16 @@ namespace Activity7
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
