@@ -27,5 +27,28 @@ namespace Activity7
         {
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            getData();
+        }
+
+        public void getData()
+        {
+            string conString = "server=localhost;uid=root;password=fabian;database=library_management_system;";
+            MySqlConnection conn = new MySqlConnection(conString);
+            conn.Open();
+            string query = "SELECT * FROM books";
+            MySqlCommand cmd = new MySqlCommand(query, conn);
+            MySqlDataReader reader = cmd.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+            dataGridView1.DataSource = dt;
+        }
     }
 }

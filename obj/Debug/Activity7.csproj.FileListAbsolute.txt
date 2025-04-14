@@ -42,3 +42,30 @@ C:\Users\maean\source\repos\Activity7\Activity7\obj\Debug\Activity7.exe
 C:\Users\maean\source\repos\Activity7\Activity7\obj\Debug\Activity7.pdb
 C:\Users\maean\source\repos\Activity7\Activity7\obj\Debug\Activity7.frmDashboard.resources
 C:\Users\maean\source\repos\Activity7\Activity7\obj\Debug\Activity7.Login.resources
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\Activity7.exe.config
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\Activity7.exe
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\Activity7.pdb
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\System.Buffers.dll
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\System.Memory.dll
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\Google.Protobuf.pdb
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\Google.Protobuf.xml
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\bin\Debug\System.IO.Pipelines.xml
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.csproj.AssemblyReference.cache
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.frmDashboard.resources
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.Login.resources
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.Properties.Resources.resources
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.csproj.GenerateResource.cache
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.csproj.CoreCompileInputs.cache
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.csproj.Up2Date
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.exe
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.pdb
