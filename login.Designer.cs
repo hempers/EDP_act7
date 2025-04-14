@@ -91,6 +91,7 @@
             this.txtPass.ForeColor = System.Drawing.Color.DimGray;
             this.txtPass.Location = new System.Drawing.Point(55, 169);
             this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(242, 22);
             this.txtPass.TabIndex = 3;
             this.txtPass.TextChanged += new System.EventHandler(this.txtPass_TextChanged);
