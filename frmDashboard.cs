@@ -153,7 +153,16 @@ namespace Activity7
 
         private void btnAuthors_Click_1(object sender, EventArgs e)
         {
+            Manage myform = new Manage();
+            myform.Show();
+            this.Hide();
+        }
 
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            frmDashboard myform = new frmDashboard();
+            myform.Show();
+            this.Hide();
         }
     }
 }

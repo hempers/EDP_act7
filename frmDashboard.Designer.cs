@@ -229,9 +229,9 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(13, 10);
+            this.pictureBox3.Location = new System.Drawing.Point(18, 7);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(42, 35);
+            this.pictureBox3.Size = new System.Drawing.Size(38, 35);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -241,11 +241,11 @@
             this.btnAuthors.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAuthors.Font = new System.Drawing.Font("Century Gothic", 10.25F, System.Drawing.FontStyle.Bold);
             this.btnAuthors.ForeColor = System.Drawing.Color.White;
-            this.btnAuthors.Location = new System.Drawing.Point(-35, -4);
+            this.btnAuthors.Location = new System.Drawing.Point(-31, -4);
             this.btnAuthors.Name = "btnAuthors";
             this.btnAuthors.Size = new System.Drawing.Size(236, 57);
             this.btnAuthors.TabIndex = 1;
-            this.btnAuthors.Text = "Authors";
+            this.btnAuthors.Text = "Manage";
             this.btnAuthors.UseVisualStyleBackColor = true;
             this.btnAuthors.Click += new System.EventHandler(this.btnAuthors_Click_1);
             // 
@@ -305,6 +305,7 @@
             this.btnDashboard.TabIndex = 0;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.UseVisualStyleBackColor = true;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
             // label2
             // 
@@ -525,7 +526,7 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(32, 4);
+            this.textBox1.Location = new System.Drawing.Point(85, 5);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(49, 14);
             this.textBox1.TabIndex = 2;
@@ -534,7 +535,7 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(-26, -13);
+            this.pictureBox11.Location = new System.Drawing.Point(-29, -14);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(106, 66);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
