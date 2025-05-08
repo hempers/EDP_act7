@@ -241,11 +241,11 @@
             this.btnAuthors.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAuthors.Font = new System.Drawing.Font("Century Gothic", 10.25F, System.Drawing.FontStyle.Bold);
             this.btnAuthors.ForeColor = System.Drawing.Color.White;
-            this.btnAuthors.Location = new System.Drawing.Point(-31, -4);
+            this.btnAuthors.Location = new System.Drawing.Point(-11, -3);
             this.btnAuthors.Name = "btnAuthors";
             this.btnAuthors.Size = new System.Drawing.Size(236, 57);
             this.btnAuthors.TabIndex = 1;
-            this.btnAuthors.Text = "Manage";
+            this.btnAuthors.Text = "Manage Users";
             this.btnAuthors.UseVisualStyleBackColor = true;
             this.btnAuthors.Click += new System.EventHandler(this.btnAuthors_Click_1);
             // 

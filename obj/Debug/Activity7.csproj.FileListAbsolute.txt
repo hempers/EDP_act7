@@ -70,3 +70,7 @@ C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.cspro
 C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.exe
 C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.pdb
 C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.Manage.resources
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.fogotpass.resources
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.resetpass.resources
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.resetsuccess.resources
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.verifiyEmail.resources

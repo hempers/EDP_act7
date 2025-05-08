@@ -86,10 +86,17 @@ namespace Activity7
 
         private void btnData_Click_1(object sender, EventArgs e)
         {
-            LoadTableToGrid("authors", dataGridView1);
-            LoadTableToGrid("users", dataGridView2);
-            LoadTableToGrid("categories", dataGridView3);
-            LoadTableToGrid("borrowedbooks", dataGridView4);
+            LoadTableToGrid("users", dataGridView1);
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView2_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

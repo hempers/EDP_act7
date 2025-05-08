@@ -30,14 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Manage));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.btnReserve = new System.Windows.Forms.Button();
             this.panel14 = new System.Windows.Forms.Panel();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.btnMng = new System.Windows.Forms.Button();
@@ -49,8 +46,6 @@
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -60,13 +55,20 @@
             this.label10 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.btnReserve = new System.Windows.Forms.Button();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel15.SuspendLayout();
@@ -75,40 +77,34 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
-            this.panel1.Controls.Add(this.dataGridView4);
-            this.panel1.Controls.Add(this.panel9);
-            this.panel1.Controls.Add(this.dataGridView3);
+            this.panel1.Controls.Add(this.button6);
+            this.panel1.Controls.Add(this.button7);
+            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.dataGridView2);
+            this.panel1.Controls.Add(this.panel9);
             this.panel1.Controls.Add(this.panel11);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 749);
+            this.panel1.Size = new System.Drawing.Size(800, 534);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // dataGridView4
-            // 
-            this.dataGridView4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView4.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Location = new System.Drawing.Point(219, 530);
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(558, 132);
-            this.dataGridView4.TabIndex = 28;
             // 
             // panel9
             // 
@@ -125,7 +121,7 @@
             this.panel9.Controls.Add(this.pictureBox15);
             this.panel9.Location = new System.Drawing.Point(1, 1);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(193, 746);
+            this.panel9.Size = new System.Drawing.Size(193, 531);
             this.panel9.TabIndex = 27;
             // 
             // panel10
@@ -170,29 +166,6 @@
             this.panel13.Size = new System.Drawing.Size(192, 54);
             this.panel13.TabIndex = 14;
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(19, 9);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(35, 31);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 3;
-            this.pictureBox9.TabStop = false;
-            // 
-            // btnReserve
-            // 
-            this.btnReserve.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReserve.Font = new System.Drawing.Font("Century Gothic", 10.25F, System.Drawing.FontStyle.Bold);
-            this.btnReserve.ForeColor = System.Drawing.Color.White;
-            this.btnReserve.Location = new System.Drawing.Point(-14, -9);
-            this.btnReserve.Name = "btnReserve";
-            this.btnReserve.Size = new System.Drawing.Size(220, 66);
-            this.btnReserve.TabIndex = 2;
-            this.btnReserve.Text = "Reservation";
-            this.btnReserve.UseVisualStyleBackColor = true;
-            // 
             // panel14
             // 
             this.panel14.Controls.Add(this.pictureBox10);
@@ -219,18 +192,18 @@
             this.btnMng.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMng.Font = new System.Drawing.Font("Century Gothic", 10.25F, System.Drawing.FontStyle.Bold);
             this.btnMng.ForeColor = System.Drawing.Color.PaleGreen;
-            this.btnMng.Location = new System.Drawing.Point(-29, -3);
+            this.btnMng.Location = new System.Drawing.Point(-10, -3);
             this.btnMng.Name = "btnMng";
             this.btnMng.Size = new System.Drawing.Size(236, 57);
             this.btnMng.TabIndex = 1;
-            this.btnMng.Text = "Manage ";
+            this.btnMng.Text = "Manage Users";
             this.btnMng.UseVisualStyleBackColor = false;
             // 
             // panel15
             // 
             this.panel15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.panel15.Controls.Add(this.label3);
-            this.panel15.Location = new System.Drawing.Point(43, 700);
+            this.panel15.Location = new System.Drawing.Point(43, 485);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(74, 27);
             this.panel15.TabIndex = 14;
@@ -287,7 +260,7 @@
             this.pictureBox13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(159, 702);
+            this.pictureBox13.Location = new System.Drawing.Point(159, 487);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(25, 25);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -299,7 +272,7 @@
             this.pictureBox14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(3, 695);
+            this.pictureBox14.Location = new System.Drawing.Point(3, 480);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(46, 36);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -316,26 +289,6 @@
             this.pictureBox15.TabIndex = 4;
             this.pictureBox15.TabStop = false;
             // 
-            // dataGridView3
-            // 
-            this.dataGridView3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView3.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(219, 388);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(558, 132);
-            this.dataGridView3.TabIndex = 26;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView2.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(219, 246);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(558, 132);
-            this.dataGridView2.TabIndex = 25;
-            // 
             // panel11
             // 
             this.panel11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -344,7 +297,7 @@
             this.panel11.Controls.Add(this.panel12);
             this.panel11.Controls.Add(this.btnData);
             this.panel11.Controls.Add(this.label10);
-            this.panel11.Location = new System.Drawing.Point(219, 40);
+            this.panel11.Location = new System.Drawing.Point(216, 68);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(558, 35);
             this.panel11.TabIndex = 24;
@@ -425,27 +378,136 @@
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(219, 104);
+            this.dataGridView1.Location = new System.Drawing.Point(216, 143);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(558, 132);
+            this.dataGridView1.Size = new System.Drawing.Size(453, 374);
             this.dataGridView1.TabIndex = 23;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(216, 12);
+            this.label2.Location = new System.Drawing.Point(213, 40);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(122, 18);
             this.label2.TabIndex = 22;
             this.label2.Text = "Hello, Librarian!";
             // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(19, 9);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(35, 31);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 3;
+            this.pictureBox9.TabStop = false;
+            // 
+            // btnReserve
+            // 
+            this.btnReserve.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReserve.Font = new System.Drawing.Font("Century Gothic", 10.25F, System.Drawing.FontStyle.Bold);
+            this.btnReserve.ForeColor = System.Drawing.Color.White;
+            this.btnReserve.Location = new System.Drawing.Point(-14, -9);
+            this.btnReserve.Name = "btnReserve";
+            this.btnReserve.Size = new System.Drawing.Size(220, 66);
+            this.btnReserve.TabIndex = 2;
+            this.btnReserve.Text = "Reservation";
+            this.btnReserve.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(668, 143);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(106, 374);
+            this.dataGridView2.TabIndex = 28;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick_1);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(703, 145);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(42, 15);
+            this.label1.TabIndex = 29;
+            this.label1.Text = "Action";
+            // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.BackColor = System.Drawing.Color.LimeGreen;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(684, 113);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(90, 24);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "+ Create User";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.SpringGreen;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(676, 164);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(41, 23);
+            this.button4.TabIndex = 30;
+            this.button4.Text = "Edit";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Red;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(719, 164);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(52, 23);
+            this.button5.TabIndex = 31;
+            this.button5.Text = "Delete";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Red;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(719, 193);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(52, 23);
+            this.button6.TabIndex = 33;
+            this.button6.Text = "Delete";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.SpringGreen;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(676, 193);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(41, 23);
+            this.button7.TabIndex = 32;
+            this.button7.Text = "Edit";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
             // Manage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 749);
+            this.ClientSize = new System.Drawing.Size(800, 534);
             this.Controls.Add(this.panel1);
             this.Name = "Manage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -453,12 +515,10 @@
             this.Load += new System.EventHandler(this.Form3_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel13.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel14.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel15.ResumeLayout(false);
@@ -468,14 +528,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -483,14 +543,11 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridView dataGridView4;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Button btnReserve;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Button btnMng;
@@ -502,8 +559,6 @@
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.TextBox textBox1;
@@ -513,5 +568,14 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Button btnReserve;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }
