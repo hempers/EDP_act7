@@ -441,15 +441,15 @@
             this.label2.TabIndex = 22;
             this.label2.Text = "Hello, Librarian!";
             // 
-            // Form3
+            // Manage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 749);
             this.Controls.Add(this.panel1);
-            this.Name = "Form3";
+            this.Name = "Manage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Text = "ManageData";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
