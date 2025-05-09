@@ -35,7 +35,7 @@
             this.txtPass = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.forgotpass = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -130,18 +130,19 @@
             this.checkBox1.Text = "Remember Me";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // forgotpass
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.forgotpass.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 6F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.DarkGray;
-            this.label3.Location = new System.Drawing.Point(213, 199);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 12);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Forgot Password";
+            this.forgotpass.AutoSize = true;
+            this.forgotpass.Font = new System.Drawing.Font("Century Gothic", 6F, System.Drawing.FontStyle.Bold);
+            this.forgotpass.ForeColor = System.Drawing.Color.DarkGray;
+            this.forgotpass.Location = new System.Drawing.Point(213, 199);
+            this.forgotpass.Name = "forgotpass";
+            this.forgotpass.Size = new System.Drawing.Size(67, 12);
+            this.forgotpass.TabIndex = 7;
+            this.forgotpass.Text = "Forgot Password";
+            this.forgotpass.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -174,7 +175,7 @@
             this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.txtPass);
             this.panel1.Controls.Add(this.txtUsername);
-            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.forgotpass);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label4);
@@ -238,7 +239,7 @@
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label forgotpass;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel1;

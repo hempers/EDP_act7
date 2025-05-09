@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Activity7
 {
@@ -19,10 +20,36 @@ namespace Activity7
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            frmDashboard myform = new frmDashboard();
-            myform.Show();
-            this.Hide();
+            string username = txtUsername.Text.Trim();
+            string password = txtPass.Text.Trim();
+
+            string conString = "server=localhost;uid=root;password=fabian;database=library_management_system;";
+            using (MySqlConnection conn = new MySqlConnection(conString))
+            {
+                conn.Open();
+                string query = "SELECT COUNT(*) FROM admin WHERE username = @username AND password = @password";
+                using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@username", username);
+                    cmd.Parameters.AddWithValue("@password", password);
+
+                    int count = Convert.ToInt32(cmd.ExecuteScalar());
+                    if (count > 0)
+                    {
+                        // Login successful
+                        frmDashboard myform = new frmDashboard();
+                        myform.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        // Login failed
+                        MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
         }
+
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -57,7 +84,8 @@ namespace Activity7
 
             panel1.Region = System.Drawing.Region.FromHrgn(
                 CreateRoundRectRgn(0, 0, panel1.Width, panel1.Height, 10, 10));
-        }
+
+}
 
 
         private void label5_Click(object sender, EventArgs e)
@@ -93,6 +121,13 @@ namespace Activity7
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            fogotpass myform = new fogotpass();
+            myform.Show();
+            this.Hide();
         }
     }
 }
