@@ -119,6 +119,12 @@
     <Compile Include="fogotpass.Designer.cs">
       <DependentUpon>fogotpass.cs</DependentUpon>
     </Compile>
+    <Compile Include="OtpConfirmationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtpConfirmationForm.Designer.cs">
+      <DependentUpon>OtpConfirmationForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="resetsuccess.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,12 +136,6 @@
     </Compile>
     <Compile Include="resetpass.Designer.cs">
       <DependentUpon>resetpass.cs</DependentUpon>
-    </Compile>
-    <Compile Include="verifiyEmail.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="verifiyEmail.Designer.cs">
-      <DependentUpon>verifiyEmail.cs</DependentUpon>
     </Compile>
     <Compile Include="Manage.cs">
       <SubType>Form</SubType>
@@ -160,14 +160,14 @@
     <EmbeddedResource Include="fogotpass.resx">
       <DependentUpon>fogotpass.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OtpConfirmationForm.resx">
+      <DependentUpon>OtpConfirmationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="resetpass.resx">
       <DependentUpon>resetpass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="resetsuccess.resx">
       <DependentUpon>resetsuccess.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="verifiyEmail.resx">
-      <DependentUpon>verifiyEmail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manage.resx">
       <DependentUpon>Manage.cs</DependentUpon>
