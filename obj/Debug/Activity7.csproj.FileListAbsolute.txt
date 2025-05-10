@@ -77,3 +77,4 @@ C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.OtpCo
 C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.UserView.resources
 C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.EditUser.resources
 C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.DeleteUser.resources
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.CreateUser.resources

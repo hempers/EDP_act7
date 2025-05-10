@@ -65,12 +65,12 @@
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.addbooks = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.addbooks = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -91,9 +91,9 @@
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -508,52 +508,17 @@
             this.panel11.Size = new System.Drawing.Size(531, 33);
             this.panel11.TabIndex = 6;
             // 
-            // dataGridView1
+            // panel12
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(233, 188);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(531, 303);
-            this.dataGridView1.TabIndex = 8;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // addbooks
-            // 
-            this.addbooks.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.addbooks.BackColor = System.Drawing.Color.LimeGreen;
-            this.addbooks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addbooks.Font = new System.Drawing.Font("Century Gothic", 7F, System.Drawing.FontStyle.Bold);
-            this.addbooks.ForeColor = System.Drawing.Color.White;
-            this.addbooks.Location = new System.Drawing.Point(444, 5);
-            this.addbooks.Name = "addbooks";
-            this.addbooks.Size = new System.Drawing.Size(84, 24);
-            this.addbooks.TabIndex = 7;
-            this.addbooks.Text = "Add Books";
-            this.addbooks.UseVisualStyleBackColor = false;
-            this.addbooks.Click += new System.EventHandler(this.addbooks_Click_3);
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(31, 5);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(51, 13);
-            this.textBox2.TabIndex = 3;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(-10, -13);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(72, 66);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 1;
-            this.pictureBox11.TabStop = false;
+            this.panel12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel12.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel12.Controls.Add(this.textBox1);
+            this.panel12.Controls.Add(this.pictureBox11);
+            this.panel12.Controls.Add(this.textBox2);
+            this.panel12.Location = new System.Drawing.Point(309, 4);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(130, 24);
+            this.panel12.TabIndex = 1;
             // 
             // textBox1
             // 
@@ -567,17 +532,52 @@
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "Search";
             // 
-            // panel12
+            // pictureBox11
             // 
-            this.panel12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel12.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel12.Controls.Add(this.textBox1);
-            this.panel12.Controls.Add(this.pictureBox11);
-            this.panel12.Controls.Add(this.textBox2);
-            this.panel12.Location = new System.Drawing.Point(309, 4);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(130, 24);
-            this.panel12.TabIndex = 1;
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Location = new System.Drawing.Point(-10, -13);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(72, 66);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 1;
+            this.pictureBox11.TabStop = false;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Location = new System.Drawing.Point(31, 5);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(51, 13);
+            this.textBox2.TabIndex = 3;
+            // 
+            // addbooks
+            // 
+            this.addbooks.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.addbooks.BackColor = System.Drawing.Color.LimeGreen;
+            this.addbooks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addbooks.Font = new System.Drawing.Font("Century Gothic", 7F, System.Drawing.FontStyle.Bold);
+            this.addbooks.ForeColor = System.Drawing.Color.White;
+            this.addbooks.Location = new System.Drawing.Point(444, 4);
+            this.addbooks.Name = "addbooks";
+            this.addbooks.Size = new System.Drawing.Size(84, 24);
+            this.addbooks.TabIndex = 7;
+            this.addbooks.Text = "Add Books";
+            this.addbooks.UseVisualStyleBackColor = false;
+            this.addbooks.Click += new System.EventHandler(this.addbooks_Click_3);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(233, 188);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(531, 303);
+            this.dataGridView1.TabIndex = 8;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // frmDashboard
             // 
@@ -623,10 +623,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

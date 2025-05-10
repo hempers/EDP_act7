@@ -234,6 +234,24 @@ namespace Activity7
         {
 
         }
+
+        private void createuser_Click(object sender, EventArgs e)
+        {
+            // Open the DeleteUser form with the selected user_id
+            CreateUser myForm = new CreateUser();
+            myForm.Show();
+            this.Hide();
+        }
+
+        private void btnMng_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel11_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 
 }

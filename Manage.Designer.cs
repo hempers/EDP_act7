@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Manage));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
@@ -49,14 +53,13 @@
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.createuser = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -71,8 +74,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.panel11.SuspendLayout();
-            this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,6 +81,7 @@
             // 
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.MintCream;
+            this.panel1.Controls.Add(this.panel12);
             this.panel1.Controls.Add(this.panel9);
             this.panel1.Controls.Add(this.panel11);
             this.panel1.Controls.Add(this.dataGridView1);
@@ -90,6 +92,48 @@
             this.panel1.Size = new System.Drawing.Size(800, 534);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // panel12
+            // 
+            this.panel12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel12.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel12.Controls.Add(this.textBox1);
+            this.panel12.Controls.Add(this.pictureBox11);
+            this.panel12.Controls.Add(this.textBox2);
+            this.panel12.Location = new System.Drawing.Point(610, 40);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(164, 24);
+            this.panel12.TabIndex = 1;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(116, 5);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(49, 14);
+            this.textBox1.TabIndex = 2;
+            this.textBox1.Text = "Search";
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Location = new System.Drawing.Point(-28, -13);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(106, 66);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 1;
+            this.pictureBox11.TabStop = false;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Location = new System.Drawing.Point(31, 5);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(51, 13);
+            this.textBox2.TabIndex = 3;
             // 
             // panel9
             // 
@@ -206,6 +250,7 @@
             this.btnMng.TabIndex = 1;
             this.btnMng.Text = "Manage Users";
             this.btnMng.UseVisualStyleBackColor = false;
+            this.btnMng.Click += new System.EventHandler(this.btnMng_Click_1);
             // 
             // panel15
             // 
@@ -302,55 +347,29 @@
             this.panel11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel11.BackColor = System.Drawing.Color.White;
-            this.panel11.Controls.Add(this.panel12);
+            this.panel11.Controls.Add(this.createuser);
             this.panel11.Controls.Add(this.label10);
             this.panel11.Location = new System.Drawing.Point(216, 68);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(558, 35);
             this.panel11.TabIndex = 24;
+            this.panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.panel11_Paint);
             // 
-            // panel12
+            // createuser
             // 
-            this.panel12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel12.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel12.Controls.Add(this.textBox1);
-            this.panel12.Controls.Add(this.pictureBox11);
-            this.panel12.Controls.Add(this.textBox2);
-            this.panel12.Location = new System.Drawing.Point(422, 5);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(130, 24);
-            this.panel12.TabIndex = 1;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(85, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(49, 14);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "Search";
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(-28, -13);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(106, 66);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 1;
-            this.pictureBox11.TabStop = false;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(31, 5);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(51, 13);
-            this.textBox2.TabIndex = 3;
+            this.createuser.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.createuser.BackColor = System.Drawing.Color.LimeGreen;
+            this.createuser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.createuser.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.createuser.ForeColor = System.Drawing.Color.White;
+            this.createuser.Location = new System.Drawing.Point(459, 6);
+            this.createuser.Name = "createuser";
+            this.createuser.Size = new System.Drawing.Size(94, 23);
+            this.createuser.TabIndex = 1;
+            this.createuser.Text = "Create User";
+            this.createuser.UseVisualStyleBackColor = false;
+            this.createuser.Click += new System.EventHandler(this.createuser_Click);
             // 
             // label10
             // 
@@ -399,6 +418,9 @@
             this.Load += new System.EventHandler(this.Form3_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -415,9 +437,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -452,5 +471,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Button btnReserve;
+        private System.Windows.Forms.Button createuser;
     }
 }
