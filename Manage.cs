@@ -77,6 +77,9 @@ namespace Activity7
 
             dataGridView1.ColumnHeadersHeight = 50;
             dataGridView1.Paint += panel1_Paint;
+         
+            dataGridView1.DefaultCellStyle.SelectionBackColor = Color.Honeydew; // example color
+            dataGridView1.DefaultCellStyle.SelectionForeColor = Color.DimGray;
 
         }
 
@@ -164,10 +167,28 @@ namespace Activity7
 
 
 
+    
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
-           
+            {
+                // Ignore clicks on the header row
+                if (e.RowIndex < 0)
+                    return;
+
+                // Get the name of the clicked column
+                string columnName = dataGridView1.Columns[e.ColumnIndex].Name;
+
+                if (columnName == "View")
+                {
+                    // Retrieve user_id from the selected row
+                    string selectedUserId = dataGridView1.Rows[e.RowIndex].Cells["user_id"].Value.ToString();
+
+                    // Open the UserView form with the selected user_id
+                    UserView userViewForm = new UserView(selectedUserId);
+                    userViewForm.Show();
+                }
         }
+
+        
 
         private void dataGridView2_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
@@ -176,26 +197,32 @@ namespace Activity7
 
         private void AddActionButtons()
         {
-            string[] actions = { "View", "Edit", "Delete" };
+            // Only include "View" and "Delete"
+            string[] actions = { "View", "Delete" };
 
+            // Remove existing buttons if they exist
             foreach (string action in actions)
             {
                 if (dataGridView1.Columns.Contains(action))
                     dataGridView1.Columns.Remove(action);
             }
 
+            // Add View and Delete buttons
             foreach (string action in actions)
             {
                 DataGridViewButtonColumn buttonColumn = new DataGridViewButtonColumn();
                 buttonColumn.Name = action;
-                buttonColumn.HeaderText = ""; // 🟢 hides sub-headers
+                buttonColumn.HeaderText = ""; // Hide individual sub-headers
                 buttonColumn.Text = action;
                 buttonColumn.UseColumnTextForButtonValue = true;
                 dataGridView1.Columns.Add(buttonColumn);
             }
         }
 
+        private void adduser_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 
 }
