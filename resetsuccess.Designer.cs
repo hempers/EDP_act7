@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Loginnow = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.forgotpass = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -38,7 +38,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.Loginnow);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.forgotpass);
             this.panel1.Location = new System.Drawing.Point(219, 101);
@@ -46,19 +46,20 @@
             this.panel1.Size = new System.Drawing.Size(366, 181);
             this.panel1.TabIndex = 22;
             // 
-            // button1
+            // Loginnow
             // 
-            this.button1.BackColor = System.Drawing.Color.SpringGreen;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(127, 115);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 28);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Login Now!";
-            this.button1.UseVisualStyleBackColor = false;
+            this.Loginnow.BackColor = System.Drawing.Color.SpringGreen;
+            this.Loginnow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Loginnow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Loginnow.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Loginnow.ForeColor = System.Drawing.Color.White;
+            this.Loginnow.Location = new System.Drawing.Point(127, 115);
+            this.Loginnow.Name = "Loginnow";
+            this.Loginnow.Size = new System.Drawing.Size(118, 28);
+            this.Loginnow.TabIndex = 19;
+            this.Loginnow.Text = "Login Now!";
+            this.Loginnow.UseVisualStyleBackColor = false;
+            this.Loginnow.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -100,7 +101,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Loginnow;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label forgotpass;
     }

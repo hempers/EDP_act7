@@ -73,5 +73,4 @@ C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.Manag
 C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.fogotpass.resources
 C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.resetpass.resources
 C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.resetsuccess.resources
-C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.verifiyEmail.resources
 C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.OtpConfirmationForm.resources

@@ -16,5 +16,12 @@ namespace Activity7
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Login resetForm = new Login();
+            resetForm.Show();
+            this.Hide();
+        }
     }
 }
