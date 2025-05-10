@@ -21,11 +21,30 @@ namespace Activity7
             selectedUserId = userId;
 
             txtUserId.Text = userId;
-            txtUserId.Enabled = false;
+            txtUserId.Enabled = false; // Disable user_id field from editing
             LoadUserInfo();
 
+            // Disable all other fields from editing (view-only mode)
+            name.Enabled = false;
+            email.Enabled = false;
+            phonenumber.Enabled = false;
+            address.Enabled = false;
+            status.Enabled = false;
+
+            // Optionally, you can also change the back color to make them look like static fields
+            name.BackColor = Color.White;
+            email.BackColor = Color.White;
+            phonenumber.BackColor = Color.White;
+            address.BackColor = Color.White;
+            status.BackColor = Color.White;
+
+            // Hover effect for the back button
             back.MouseEnter += back_MouseEnter;
             back.MouseLeave += back_MouseLeave;
+        }
+
+        public UserView()
+        {
         }
 
         private void LoadUserInfo()
@@ -112,6 +131,13 @@ namespace Activity7
         }
 
         private void edit_Click(object sender, EventArgs e)
+        {
+            EditUser myform = new EditUser(selectedUserId); // <- pass the ID here
+            myform.Show();
+            this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

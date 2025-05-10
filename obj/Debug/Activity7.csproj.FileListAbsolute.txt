@@ -75,3 +75,5 @@ C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.reset
 C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.resetsuccess.resources
 C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.OtpConfirmationForm.resources
 C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.UserView.resources
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.EditUser.resources
+C:\Users\maean\Documents\3rd year 2nd sem\EDP\EDP_act7\obj\Debug\Activity7.DeleteUser.resources

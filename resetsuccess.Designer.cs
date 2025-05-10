@@ -41,7 +41,7 @@
             this.panel1.Controls.Add(this.Loginnow);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.forgotpass);
-            this.panel1.Location = new System.Drawing.Point(219, 101);
+            this.panel1.Location = new System.Drawing.Point(132, 98);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(366, 181);
             this.panel1.TabIndex = 22;
@@ -87,8 +87,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.MintCream;
+            this.ClientSize = new System.Drawing.Size(624, 414);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "resetsuccess";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Password Reset Successfully";

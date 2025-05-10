@@ -1,6 +1,6 @@
 ﻿namespace Activity7
 {
-    partial class UserView
+    partial class EditUser
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.edit = new System.Windows.Forms.Button();
+            this.save = new System.Windows.Forms.Button();
             this.status = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.phonenumber = new System.Windows.Forms.TextBox();
@@ -40,7 +40,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.name = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.back = new System.Windows.Forms.Button();
+            this.cancel = new System.Windows.Forms.Button();
             this.txtUserId = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.forgotpass = new System.Windows.Forms.Label();
@@ -50,7 +50,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.edit);
+            this.panel1.Controls.Add(this.save);
             this.panel1.Controls.Add(this.status);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.phonenumber);
@@ -61,30 +61,30 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.name);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.back);
+            this.panel1.Controls.Add(this.cancel);
             this.panel1.Controls.Add(this.txtUserId);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.forgotpass);
-            this.panel1.Location = new System.Drawing.Point(195, 32);
+            this.panel1.Location = new System.Drawing.Point(198, 34);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(405, 430);
-            this.panel1.TabIndex = 22;
+            this.panel1.TabIndex = 23;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // edit
+            // save
             // 
-            this.edit.BackColor = System.Drawing.Color.SpringGreen;
-            this.edit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.edit.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.edit.ForeColor = System.Drawing.Color.White;
-            this.edit.Location = new System.Drawing.Point(56, 352);
-            this.edit.Name = "edit";
-            this.edit.Size = new System.Drawing.Size(137, 28);
-            this.edit.TabIndex = 31;
-            this.edit.Text = "Edit";
-            this.edit.UseVisualStyleBackColor = false;
-            this.edit.Click += new System.EventHandler(this.edit_Click);
+            this.save.BackColor = System.Drawing.Color.SpringGreen;
+            this.save.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.save.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.save.ForeColor = System.Drawing.Color.White;
+            this.save.Location = new System.Drawing.Point(56, 352);
+            this.save.Name = "save";
+            this.save.Size = new System.Drawing.Size(137, 28);
+            this.save.TabIndex = 31;
+            this.save.Text = "Save";
+            this.save.UseVisualStyleBackColor = false;
+            this.save.Click += new System.EventHandler(this.save_Click);
             // 
             // status
             // 
@@ -200,22 +200,21 @@
             this.label3.Size = new System.Drawing.Size(42, 15);
             this.label3.TabIndex = 21;
             this.label3.Text = "Name:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // back
+            // cancel
             // 
-            this.back.BackColor = System.Drawing.Color.White;
-            this.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.back.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.back.ForeColor = System.Drawing.Color.SpringGreen;
-            this.back.Location = new System.Drawing.Point(223, 352);
-            this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(137, 28);
-            this.back.TabIndex = 19;
-            this.back.Text = "Back";
-            this.back.UseVisualStyleBackColor = false;
-            this.back.Click += new System.EventHandler(this.back_Click);
+            this.cancel.BackColor = System.Drawing.Color.White;
+            this.cancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cancel.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cancel.ForeColor = System.Drawing.Color.SpringGreen;
+            this.cancel.Location = new System.Drawing.Point(223, 352);
+            this.cancel.Name = "cancel";
+            this.cancel.Size = new System.Drawing.Size(137, 28);
+            this.cancel.TabIndex = 19;
+            this.cancel.Text = "Cancel";
+            this.cancel.UseVisualStyleBackColor = false;
+            this.cancel.Click += new System.EventHandler(this.cancel_Click);
             // 
             // txtUserId
             // 
@@ -245,22 +244,23 @@
             this.forgotpass.AutoSize = true;
             this.forgotpass.Font = new System.Drawing.Font("Century Gothic", 16.25F, System.Drawing.FontStyle.Bold);
             this.forgotpass.ForeColor = System.Drawing.Color.DimGray;
-            this.forgotpass.Location = new System.Drawing.Point(116, 44);
+            this.forgotpass.Location = new System.Drawing.Point(99, 38);
             this.forgotpass.Name = "forgotpass";
-            this.forgotpass.Size = new System.Drawing.Size(184, 26);
+            this.forgotpass.Size = new System.Drawing.Size(228, 26);
             this.forgotpass.TabIndex = 15;
-            this.forgotpass.Text = "User Information";
+            this.forgotpass.Text = "Edit User Information";
             // 
-            // UserView
+            // EditUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
-            this.ClientSize = new System.Drawing.Size(800, 506);
+            this.ClientSize = new System.Drawing.Size(800, 499);
             this.Controls.Add(this.panel1);
-            this.Name = "UserView";
+            this.Name = "EditUser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "User View";
+            this.Text = "Edit User Information";
+            this.Load += new System.EventHandler(this.EditUser_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -270,20 +270,20 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox name;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button back;
-        private System.Windows.Forms.TextBox txtUserId;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label forgotpass;
-        private System.Windows.Forms.TextBox email;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button save;
         private System.Windows.Forms.TextBox status;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox phonenumber;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox address;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button edit;
+        private System.Windows.Forms.TextBox email;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox name;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button cancel;
+        private System.Windows.Forms.TextBox txtUserId;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label forgotpass;
     }
 }

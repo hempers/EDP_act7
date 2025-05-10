@@ -100,12 +100,12 @@ namespace Activity7
 
         private void txtUsername_TextChanged(object sender, EventArgs e)
         {
-
+            txtUsername.Padding = new Padding(20, 5, 20, 5); // 20px on left and right, 5px on top and bottom
         }
 
         private void txtPass_TextChanged(object sender, EventArgs e)
         {
-
+            txtUsername.Padding = new Padding(20, 5, 20, 5); // 20px on left and right, 5px on top and bottom
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

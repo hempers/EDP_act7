@@ -76,11 +76,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtUsername.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtUsername.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold);
+            this.txtUsername.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsername.ForeColor = System.Drawing.Color.DimGray;
             this.txtUsername.Location = new System.Drawing.Point(51, 126);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(226, 22);
+            this.txtUsername.Size = new System.Drawing.Size(226, 21);
             this.txtUsername.TabIndex = 2;
             this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
@@ -90,12 +90,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPass.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPass.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold);
+            this.txtPass.Font = new System.Drawing.Font("Century Gothic", 8.25F);
             this.txtPass.ForeColor = System.Drawing.Color.DimGray;
             this.txtPass.Location = new System.Drawing.Point(51, 174);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(226, 22);
+            this.txtPass.Size = new System.Drawing.Size(226, 21);
             this.txtPass.TabIndex = 3;
             this.txtPass.TextChanged += new System.EventHandler(this.txtPass_TextChanged);
             // 
@@ -149,22 +149,22 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 7F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.DimGray;
-            this.label4.Location = new System.Drawing.Point(101, 82);
+            this.label4.Location = new System.Drawing.Point(109, 83);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(126, 14);
+            this.label4.Size = new System.Drawing.Size(116, 14);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Login To Your Credentials";
+            this.label4.Text = "Log in Your Credentials";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.SpringGreen;
-            this.label5.Location = new System.Drawing.Point(87, 60);
+            this.label5.Location = new System.Drawing.Point(49, 60);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(155, 23);
+            this.label5.Size = new System.Drawing.Size(235, 23);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Welcome Back!";
+            this.label5.Text = "Welcome to ReadSpace";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // panel1

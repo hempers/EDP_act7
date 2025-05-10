@@ -20,6 +20,7 @@ namespace Activity7
             InitializeComponent();
             this.Load += new System.EventHandler(this.frmDashboard_Load);
 
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,6 +30,7 @@ namespace Activity7
 
         private void Form1_Load(object sender, EventArgs e)
         {
+          
 
         }
 
@@ -121,29 +123,88 @@ namespace Activity7
                 label3.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
             };
             timer.Start();
-        }
 
-        private void panel10_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void btnData_Click_3(object sender, EventArgs e)
-        {
             getData();
+        }
+
+        private void Panel10_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void addbooks_Click_3(object sender, EventArgs e)
+        {
+            
         }
 
         public void getData()
         {
             string conString = "server=localhost;uid=root;password=fabian;database=library_management_system;";
-            MySqlConnection conn = new MySqlConnection(conString);
-            conn.Open();
-            string query = "SELECT * FROM books";
-            MySqlCommand cmd = new MySqlCommand(query, conn);
-            MySqlDataReader reader = cmd.ExecuteReader();
-            DataTable dt = new DataTable();
-            dt.Load(reader);
-            dataGridView1.DataSource = dt;
+
+            using (MySqlConnection conn = new MySqlConnection(conString))
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "SELECT book_id, title, author_id, status FROM books";
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+                    MySqlDataReader reader = cmd.ExecuteReader();
+
+                    DataTable dt = new DataTable();
+                    dt.Load(reader);
+
+                    // Set the DataGridView data source
+                    dataGridView1.DataSource = dt;
+
+                    // Make DataGridView clean and view-only
+                    dataGridView1.ReadOnly = true;
+                    dataGridView1.AllowUserToAddRows = false;
+                    dataGridView1.AllowUserToDeleteRows = false;
+                    dataGridView1.AllowUserToResizeRows = false;
+                    dataGridView1.AllowUserToResizeColumns = false;
+                    dataGridView1.RowHeadersVisible = false;
+                    dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+                    dataGridView1.MultiSelect = false;
+
+                    // Styling for clean appearance
+                    dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                    dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+                    dataGridView1.BackgroundColor = Color.White;
+                    dataGridView1.BorderStyle = BorderStyle.None;
+                    dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+                    dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+                    dataGridView1.EnableHeadersVisualStyles = false;
+
+                    // Optional: Customize column header style
+                    dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.DimGray;
+                    dataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+                    dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Century Gothic", 10, FontStyle.Bold);
+
+                    // Optional: Customize row style
+                    dataGridView1.DefaultCellStyle.Font = new Font("Century Gothic", 10);
+                    dataGridView1.DefaultCellStyle.ForeColor = Color.DimGray;
+                    dataGridView1.DefaultCellStyle.SelectionBackColor = Color.LightGray;
+                    dataGridView1.DefaultCellStyle.SelectionForeColor = Color.White;
+
+
+
+                    dataGridView1.Columns["book_id"].HeaderText = "Book ID";
+                    dataGridView1.Columns["title"].HeaderText = "Title";
+                    dataGridView1.Columns["author_id"].HeaderText = "Author ID";
+                    dataGridView1.Columns["status"].HeaderText = "Status";
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error loading data: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

@@ -79,6 +79,7 @@
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.BackColor = System.Drawing.Color.MintCream;
             this.panel1.Controls.Add(this.panel9);
             this.panel1.Controls.Add(this.panel11);
             this.panel1.Controls.Add(this.dataGridView1);

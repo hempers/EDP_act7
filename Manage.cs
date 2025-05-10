@@ -186,6 +186,17 @@ namespace Activity7
                     UserView userViewForm = new UserView(selectedUserId);
                     userViewForm.Show();
                 }
+
+                else if (columnName == "Delete")
+                {
+                    // Retrieve user_id from the selected row
+                    string selectedUserId = dataGridView1.Rows[e.RowIndex].Cells["user_id"].Value.ToString();
+
+                    // Open the DeleteUser form with the selected user_id
+                    DeleteUser deleteUserForm = new DeleteUser(selectedUserId);
+                    deleteUserForm.Show();
+                    this.Hide();  // Optionally hide the Manage form
+                }
         }
 
         
