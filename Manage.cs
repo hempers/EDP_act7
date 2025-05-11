@@ -262,6 +262,23 @@ namespace Activity7
             myform.Show();
             this.Hide();
         }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel9_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ViewTransactions myform = new ViewTransactions();
+            myform.Show();
+            this.Hide();
+        }
     }
 
 }

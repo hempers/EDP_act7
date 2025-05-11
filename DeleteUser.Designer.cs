@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cancel = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.delete = new System.Windows.Forms.Button();
             this.forgotpass = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cancel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,11 +43,37 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.delete);
             this.panel1.Controls.Add(this.forgotpass);
-            this.panel1.Location = new System.Drawing.Point(123, 104);
+            this.panel1.Location = new System.Drawing.Point(246, 152);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(298, 167);
             this.panel1.TabIndex = 23;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // cancel
+            // 
+            this.cancel.BackColor = System.Drawing.Color.White;
+            this.cancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cancel.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold);
+            this.cancel.ForeColor = System.Drawing.Color.SpringGreen;
+            this.cancel.Location = new System.Drawing.Point(156, 108);
+            this.cancel.Name = "cancel";
+            this.cancel.Size = new System.Drawing.Size(93, 28);
+            this.cancel.TabIndex = 21;
+            this.cancel.Text = "Cancel";
+            this.cancel.UseVisualStyleBackColor = false;
+            this.cancel.Click += new System.EventHandler(this.cancel_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DimGray;
+            this.label1.Location = new System.Drawing.Point(84, 58);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(130, 19);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "delete this user?";
             // 
             // delete
             // 
@@ -75,38 +101,12 @@
             this.forgotpass.TabIndex = 15;
             this.forgotpass.Text = "Are you sure you want to";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(84, 58);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 19);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "delete this user?";
-            // 
-            // cancel
-            // 
-            this.cancel.BackColor = System.Drawing.Color.White;
-            this.cancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cancel.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold);
-            this.cancel.ForeColor = System.Drawing.Color.SpringGreen;
-            this.cancel.Location = new System.Drawing.Point(156, 108);
-            this.cancel.Name = "cancel";
-            this.cancel.Size = new System.Drawing.Size(93, 28);
-            this.cancel.TabIndex = 21;
-            this.cancel.Text = "Cancel";
-            this.cancel.UseVisualStyleBackColor = false;
-            this.cancel.Click += new System.EventHandler(this.cancel_Click);
-            // 
             // DeleteUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
-            this.ClientSize = new System.Drawing.Size(559, 385);
+            this.ClientSize = new System.Drawing.Size(785, 522);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;

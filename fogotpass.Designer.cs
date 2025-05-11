@@ -106,7 +106,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.forgotpass);
-            this.panel1.Location = new System.Drawing.Point(197, 65);
+            this.panel1.Location = new System.Drawing.Point(192, 103);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(385, 289);
             this.panel1.TabIndex = 20;
@@ -132,8 +132,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Honeydew;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(785, 522);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "fogotpass";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Forgot Password";

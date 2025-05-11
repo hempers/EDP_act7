@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.create = new System.Windows.Forms.Button();
             this.status = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -42,7 +43,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.cancel = new System.Windows.Forms.Button();
             this.forgotpass = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,10 +63,22 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.cancel);
             this.panel1.Controls.Add(this.forgotpass);
-            this.panel1.Location = new System.Drawing.Point(158, 36);
+            this.panel1.Location = new System.Drawing.Point(195, 48);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(405, 430);
             this.panel1.TabIndex = 24;
+            // 
+            // label2
+            // 
+            this.label2.AllowDrop = true;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DimGray;
+            this.label2.Location = new System.Drawing.Point(122, 73);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(180, 16);
+            this.label2.TabIndex = 32;
+            this.label2.Text = "Please fill in the user\'s information";
             // 
             // create
             // 
@@ -224,25 +236,15 @@
             this.forgotpass.TabIndex = 15;
             this.forgotpass.Text = "Create User";
             // 
-            // label2
-            // 
-            this.label2.AllowDrop = true;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(122, 73);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(180, 16);
-            this.label2.TabIndex = 32;
-            this.label2.Text = "Please fill in the user\'s information";
-            // 
             // CreateUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
-            this.ClientSize = new System.Drawing.Size(757, 504);
+            this.ClientSize = new System.Drawing.Size(785, 522);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "CreateUser";
             this.Text = "Create User";
             this.panel1.ResumeLayout(false);

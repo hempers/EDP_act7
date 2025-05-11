@@ -65,7 +65,7 @@
             this.panel1.Controls.Add(this.txtUserId);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.forgotpass);
-            this.panel1.Location = new System.Drawing.Point(198, 34);
+            this.panel1.Location = new System.Drawing.Point(188, 40);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(405, 430);
             this.panel1.TabIndex = 23;
@@ -255,8 +255,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
-            this.ClientSize = new System.Drawing.Size(800, 499);
+            this.ClientSize = new System.Drawing.Size(785, 522);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "EditUser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Edit User Information";

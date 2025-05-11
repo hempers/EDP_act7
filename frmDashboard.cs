@@ -104,7 +104,9 @@ namespace Activity7
 
         private void button1_Click_2(object sender, EventArgs e)
         {
-
+            ViewTransactions myform = new ViewTransactions();
+            myform.Show();
+            this.Hide();
         }
 
         private void frmDashboard_Load(object sender, EventArgs e)

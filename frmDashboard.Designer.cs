@@ -111,7 +111,7 @@
             this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(3, 459);
+            this.pictureBox5.Location = new System.Drawing.Point(3, 470);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(46, 36);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -123,7 +123,7 @@
             this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(159, 466);
+            this.pictureBox6.Location = new System.Drawing.Point(159, 477);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(25, 25);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -146,7 +146,7 @@
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(193, 510);
+            this.panel1.Size = new System.Drawing.Size(193, 521);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -176,11 +176,11 @@
             this.btnCategories.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCategories.Font = new System.Drawing.Font("Century Gothic", 10.25F, System.Drawing.FontStyle.Bold);
             this.btnCategories.ForeColor = System.Drawing.Color.White;
-            this.btnCategories.Location = new System.Drawing.Point(-10, -14);
+            this.btnCategories.Location = new System.Drawing.Point(-9, -16);
             this.btnCategories.Name = "btnCategories";
-            this.btnCategories.Size = new System.Drawing.Size(209, 79);
+            this.btnCategories.Size = new System.Drawing.Size(256, 79);
             this.btnCategories.TabIndex = 0;
-            this.btnCategories.Text = "Categories";
+            this.btnCategories.Text = "View Transactions";
             this.btnCategories.UseVisualStyleBackColor = true;
             this.btnCategories.Click += new System.EventHandler(this.button1_Click_2);
             // 
@@ -254,7 +254,7 @@
             // 
             this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.panel5.Controls.Add(this.label1);
-            this.panel5.Location = new System.Drawing.Point(43, 464);
+            this.panel5.Location = new System.Drawing.Point(43, 475);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(74, 27);
             this.panel5.TabIndex = 14;
@@ -339,7 +339,7 @@
             this.panel7.Controls.Add(this.pictureBox8);
             this.panel7.Controls.Add(this.label7);
             this.panel7.Controls.Add(this.label4);
-            this.panel7.Location = new System.Drawing.Point(233, 63);
+            this.panel7.Location = new System.Drawing.Point(227, 63);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(158, 75);
             this.panel7.TabIndex = 4;
@@ -389,7 +389,7 @@
             this.panel8.Controls.Add(this.pictureBox9);
             this.panel8.Location = new System.Drawing.Point(411, 63);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(158, 75);
+            this.panel8.Size = new System.Drawing.Size(152, 75);
             this.panel8.TabIndex = 5;
             // 
             // label8
@@ -426,7 +426,7 @@
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(87, 10);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(64, 49);
+            this.pictureBox9.Size = new System.Drawing.Size(58, 49);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 3;
             this.pictureBox9.TabStop = false;
@@ -441,7 +441,7 @@
             this.panel9.Controls.Add(this.pictureBox10);
             this.panel9.Location = new System.Drawing.Point(586, 63);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(158, 75);
+            this.panel9.Size = new System.Drawing.Size(152, 75);
             this.panel9.TabIndex = 6;
             // 
             // label9
@@ -479,7 +479,7 @@
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
             this.pictureBox10.Location = new System.Drawing.Point(93, 5);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(50, 49);
+            this.pictureBox10.Size = new System.Drawing.Size(44, 49);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 4;
             this.pictureBox10.TabStop = false;
@@ -506,7 +506,7 @@
             this.panel11.Controls.Add(this.label10);
             this.panel11.Location = new System.Drawing.Point(233, 149);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(531, 33);
+            this.panel11.Size = new System.Drawing.Size(525, 33);
             this.panel11.TabIndex = 6;
             // 
             // panel12
@@ -516,7 +516,7 @@
             this.panel12.Controls.Add(this.textBox1);
             this.panel12.Controls.Add(this.pictureBox11);
             this.panel12.Controls.Add(this.textBox2);
-            this.panel12.Location = new System.Drawing.Point(309, 4);
+            this.panel12.Location = new System.Drawing.Point(303, 4);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(130, 24);
             this.panel12.TabIndex = 1;
@@ -559,7 +559,7 @@
             this.addbooks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addbooks.Font = new System.Drawing.Font("Century Gothic", 7F, System.Drawing.FontStyle.Bold);
             this.addbooks.ForeColor = System.Drawing.Color.White;
-            this.addbooks.Location = new System.Drawing.Point(444, 4);
+            this.addbooks.Location = new System.Drawing.Point(438, 4);
             this.addbooks.Name = "addbooks";
             this.addbooks.Size = new System.Drawing.Size(84, 24);
             this.addbooks.TabIndex = 7;
@@ -576,7 +576,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(233, 188);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(531, 303);
+            this.dataGridView1.Size = new System.Drawing.Size(525, 314);
             this.dataGridView1.TabIndex = 8;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -585,7 +585,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
-            this.ClientSize = new System.Drawing.Size(791, 511);
+            this.ClientSize = new System.Drawing.Size(785, 522);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel8);
@@ -595,6 +595,8 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel11);
             this.ForeColor = System.Drawing.Color.DimGray;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
