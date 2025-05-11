@@ -78,8 +78,8 @@ namespace Activity7
 
         private void btnReserve_Click_1(object sender, EventArgs e)
         {
-            btnReserve.FlatStyle = FlatStyle.Flat;
-            btnReserve.FlatAppearance.BorderSize = 0;
+            btnMngLib.FlatStyle = FlatStyle.Flat;
+            btnMngLib.FlatAppearance.BorderSize = 0;
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -222,6 +222,13 @@ namespace Activity7
         private void btnDashboard_Click(object sender, EventArgs e)
         {
             frmDashboard myform = new frmDashboard();
+            myform.Show();
+            this.Hide();
+        }
+
+        private void btnMngLib_Click(object sender, EventArgs e)
+        {
+            ManageLibrary myform = new ManageLibrary();
             myform.Show();
             this.Hide();
         }

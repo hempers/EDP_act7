@@ -21,7 +21,7 @@ namespace Activity7
         private void Form3_Load(object sender, EventArgs e)
         {
             LoadTableToGrid("users", dataGridView1);
-            AddActionButtons();
+           
 
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
@@ -74,6 +74,7 @@ namespace Activity7
             dataGridView1.Columns["name"].HeaderText = "Name";
             dataGridView1.Columns["email"].HeaderText = "Email";
             dataGridView1.Columns["status"].HeaderText = "Status";
+            
 
             dataGridView1.ColumnHeadersHeight = 50;
             dataGridView1.Paint += panel1_Paint;
@@ -104,6 +105,8 @@ namespace Activity7
                 dt.Load(reader);
                 grid.DataSource = dt;
                 reader.Close();
+
+                AddActionButtons();
             }
         }
 
@@ -251,6 +254,13 @@ namespace Activity7
         private void panel11_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnMngLib_Click(object sender, EventArgs e)
+        {
+            ManageLibrary myform = new ManageLibrary();
+            myform.Show();
+            this.Hide();
         }
     }
 

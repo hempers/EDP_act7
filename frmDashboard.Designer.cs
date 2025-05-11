@@ -39,7 +39,7 @@
             this.btnCategories = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.btnReserve = new System.Windows.Forms.Button();
+            this.btnMngLib = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnAuthors = new System.Windows.Forms.Button();
@@ -187,7 +187,7 @@
             // panel4
             // 
             this.panel4.Controls.Add(this.pictureBox4);
-            this.panel4.Controls.Add(this.btnReserve);
+            this.panel4.Controls.Add(this.btnMngLib);
             this.panel4.Location = new System.Drawing.Point(0, 260);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(192, 54);
@@ -204,17 +204,18 @@
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
-            // btnReserve
+            // btnMngLib
             // 
-            this.btnReserve.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReserve.Font = new System.Drawing.Font("Century Gothic", 10.25F, System.Drawing.FontStyle.Bold);
-            this.btnReserve.ForeColor = System.Drawing.Color.White;
-            this.btnReserve.Location = new System.Drawing.Point(-14, -9);
-            this.btnReserve.Name = "btnReserve";
-            this.btnReserve.Size = new System.Drawing.Size(220, 66);
-            this.btnReserve.TabIndex = 2;
-            this.btnReserve.Text = "Reservation";
-            this.btnReserve.UseVisualStyleBackColor = true;
+            this.btnMngLib.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMngLib.Font = new System.Drawing.Font("Century Gothic", 10.25F, System.Drawing.FontStyle.Bold);
+            this.btnMngLib.ForeColor = System.Drawing.Color.White;
+            this.btnMngLib.Location = new System.Drawing.Point(0, -8);
+            this.btnMngLib.Name = "btnMngLib";
+            this.btnMngLib.Size = new System.Drawing.Size(220, 66);
+            this.btnMngLib.TabIndex = 2;
+            this.btnMngLib.Text = "Manage Library";
+            this.btnMngLib.UseVisualStyleBackColor = true;
+            this.btnMngLib.Click += new System.EventHandler(this.btnMngLib_Click);
             // 
             // panel3
             // 
@@ -643,7 +644,7 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btnDashboard;
-        private System.Windows.Forms.Button btnReserve;
+        private System.Windows.Forms.Button btnMngLib;
         private System.Windows.Forms.Button btnAuthors;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
