@@ -147,7 +147,7 @@ namespace Activity7
 
         private void transac_Click(object sender, EventArgs e)
         {
-            ViewTransactions myform = new ViewTransactions();
+            Transactions myform = new Transactions();
             myform.Show();
             this.Hide();
         }

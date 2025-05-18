@@ -104,7 +104,7 @@ namespace Activity7
 
         private void button1_Click_2(object sender, EventArgs e)
         {
-            Reports myform = new Reports();
+            Transactions myform = new Transactions();
             myform.Show();
             this.Hide();
         }
@@ -233,6 +233,11 @@ namespace Activity7
             ManageLibrary myform = new ManageLibrary();
             myform.Show();
             this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

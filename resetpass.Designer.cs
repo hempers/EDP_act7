@@ -62,7 +62,7 @@
             this.confirmPasswordTextBox.Name = "confirmPasswordTextBox";
             this.confirmPasswordTextBox.Size = new System.Drawing.Size(304, 20);
             this.confirmPasswordTextBox.TabIndex = 22;
-            this.confirmPasswordTextBox.TextChanged += new System.EventHandler(this.Reenterpass_TextChanged);
+            this.confirmPasswordTextBox.TextChanged += new System.EventHandler(this.confirmPasswordTextBox_TextChanged);
             // 
             // label3
             // 
@@ -98,7 +98,7 @@
             this.newPasswordTextBox.Name = "newPasswordTextBox";
             this.newPasswordTextBox.Size = new System.Drawing.Size(304, 20);
             this.newPasswordTextBox.TabIndex = 18;
-            this.newPasswordTextBox.TextChanged += new System.EventHandler(this.email_TextChanged);
+            this.newPasswordTextBox.TextChanged += new System.EventHandler(this.newPasswordTextBox_TextChanged);
             // 
             // label2
             // 
@@ -154,11 +154,9 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button Confirmreset;
-        private System.Windows.Forms.TextBox email;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label forgotpass;
-        private System.Windows.Forms.TextBox Reenterpass;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox newPasswordTextBox;
         private System.Windows.Forms.TextBox confirmPasswordTextBox;

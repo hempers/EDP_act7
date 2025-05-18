@@ -137,17 +137,29 @@
     <Compile Include="DeleteUser.Designer.cs">
       <DependentUpon>DeleteUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="LIbrarian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LIbrarian.Designer.cs">
+      <DependentUpon>LIbrarian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reserve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reserve.Designer.cs">
+      <DependentUpon>Reserve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions.Designer.cs">
+      <DependentUpon>Transactions.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManageLibrary.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ManageLibrary.Designer.cs">
       <DependentUpon>ManageLibrary.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Reports.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Reports.Designer.cs">
-      <DependentUpon>Reports.cs</DependentUpon>
     </Compile>
     <Compile Include="UserView.cs">
       <SubType>Form</SubType>
@@ -193,12 +205,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewTransactions.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ViewTransactions.Designer.cs">
-      <DependentUpon>ViewTransactions.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="CreateUser.resx">
       <DependentUpon>CreateUser.cs</DependentUpon>
     </EmbeddedResource>
@@ -211,14 +217,17 @@
     <EmbeddedResource Include="fogotpass.resx">
       <DependentUpon>fogotpass.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LIbrarian.resx">
+      <DependentUpon>LIbrarian.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageLibrary.resx">
       <DependentUpon>ManageLibrary.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OtpConfirmationForm.resx">
       <DependentUpon>OtpConfirmationForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reports.resx">
-      <DependentUpon>Reports.cs</DependentUpon>
+    <EmbeddedResource Include="Reserve.resx">
+      <DependentUpon>Reserve.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="resetpass.resx">
       <DependentUpon>resetpass.cs</DependentUpon>
@@ -244,11 +253,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Transactions.resx">
+      <DependentUpon>Transactions.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserView.resx">
       <DependentUpon>UserView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ViewTransactions.resx">
-      <DependentUpon>ViewTransactions.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

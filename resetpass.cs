@@ -32,12 +32,12 @@ namespace Activity7
 
         }
 
-        private void email_TextChanged(object sender, EventArgs e)
+        private void newPasswordTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void Reenterpass_TextChanged(object sender, EventArgs e)
+        private void confirmPasswordTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }
