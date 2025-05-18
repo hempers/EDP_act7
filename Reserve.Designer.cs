@@ -138,6 +138,7 @@
             this.innerborrow.Name = "innerborrow";
             this.innerborrow.Size = new System.Drawing.Size(538, 452);
             this.innerborrow.TabIndex = 31;
+            this.innerborrow.Paint += new System.Windows.Forms.PaintEventHandler(this.innerborrow_Paint);
             // 
             // bookReserve
             // 
@@ -159,6 +160,7 @@
             this.booktitle.Name = "booktitle";
             this.booktitle.Size = new System.Drawing.Size(193, 20);
             this.booktitle.TabIndex = 40;
+            this.booktitle.TextChanged += new System.EventHandler(this.booktitle_TextChanged);
             // 
             // label7
             // 
@@ -177,6 +179,7 @@
             this.bookId.Name = "bookId";
             this.bookId.Size = new System.Drawing.Size(193, 20);
             this.bookId.TabIndex = 38;
+            this.bookId.TextChanged += new System.EventHandler(this.bookId_TextChanged);
             // 
             // label8
             // 
@@ -195,6 +198,7 @@
             this.address.Name = "address";
             this.address.Size = new System.Drawing.Size(193, 20);
             this.address.TabIndex = 36;
+            this.address.TextChanged += new System.EventHandler(this.address_TextChanged);
             // 
             // label4
             // 
@@ -213,6 +217,7 @@
             this.phone.Name = "phone";
             this.phone.Size = new System.Drawing.Size(193, 20);
             this.phone.TabIndex = 34;
+            this.phone.TextChanged += new System.EventHandler(this.phone_TextChanged);
             // 
             // label3
             // 
@@ -231,6 +236,7 @@
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(193, 20);
             this.email.TabIndex = 32;
+            this.email.TextChanged += new System.EventHandler(this.email_TextChanged);
             // 
             // label5
             // 
@@ -249,6 +255,7 @@
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(193, 20);
             this.name.TabIndex = 30;
+            this.name.TextChanged += new System.EventHandler(this.name_TextChanged);
             // 
             // label10
             // 
@@ -270,6 +277,7 @@
             this.Borrowedbooks.Name = "Borrowedbooks";
             this.Borrowedbooks.Size = new System.Drawing.Size(503, 191);
             this.Borrowedbooks.TabIndex = 21;
+            this.Borrowedbooks.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Borrowedbooks_CellContentClick);
             // 
             // label6
             // 
@@ -555,15 +563,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MintCream;
             this.ClientSize = new System.Drawing.Size(800, 526);
-            this.Controls.Add(this.btnLibrarian);
-            this.Controls.Add(this.btnReserve);
             this.Controls.Add(this.innerborrow);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnborrow);
+            this.Controls.Add(this.btnReserve);
+            this.Controls.Add(this.btnLibrarian);
             this.Name = "Reserve";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reserve Book";
+            this.Load += new System.EventHandler(this.Reserve_Load);
             this.innerborrow.ResumeLayout(false);
             this.innerborrow.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Borrowedbooks)).EndInit();

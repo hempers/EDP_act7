@@ -574,11 +574,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
             this.ClientSize = new System.Drawing.Size(800, 507);
-            this.Controls.Add(this.btnLibrarian);
-            this.Controls.Add(this.btnReserve);
             this.Controls.Add(this.innerborrow);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnborrow);
+            this.Controls.Add(this.btnReserve);
+            this.Controls.Add(this.btnLibrarian);
             this.Name = "Transactions";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Transactions";
