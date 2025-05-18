@@ -32,8 +32,36 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabLibrarians = new System.Windows.Forms.TabControl();
             this.tabBorrowed = new System.Windows.Forms.TabPage();
+            this.label7 = new System.Windows.Forms.Label();
+            this.BookId = new System.Windows.Forms.TextBox();
+            this.Borrowedbooks = new System.Windows.Forms.DataGridView();
+            this.label10 = new System.Windows.Forms.Label();
+            this.duedate = new System.Windows.Forms.DateTimePicker();
+            this.label9 = new System.Windows.Forms.Label();
+            this.borrow = new System.Windows.Forms.Button();
+            this.borrowdate = new System.Windows.Forms.DateTimePicker();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.UserId = new System.Windows.Forms.TextBox();
+            this.tabLibrarian = new System.Windows.Forms.TabPage();
+            this.label12 = new System.Windows.Forms.Label();
+            this.bookStatus = new System.Windows.Forms.DataGridView();
+            this.label11 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.txtBookID = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
             this.tabOverdue3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label13 = new System.Windows.Forms.Label();
+            this.overdue_logbooks = new System.Windows.Forms.DataGridView();
+            this.btnshowRecords = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.tabPenalties = new System.Windows.Forms.TabPage();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txtUserid = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.showFine = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -66,39 +94,16 @@
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.UserId = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.borrowdate = new System.Windows.Forms.DateTimePicker();
-            this.borrow = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.duedate = new System.Windows.Forms.DateTimePicker();
-            this.label10 = new System.Windows.Forms.Label();
-            this.Borrowedbooks = new System.Windows.Forms.DataGridView();
-            this.label15 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.bookStatus = new System.Windows.Forms.DataGridView();
-            this.tabLibrarian = new System.Windows.Forms.TabPage();
-            this.txtBookID = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.overdue_logbooks = new System.Windows.Forms.DataGridView();
-            this.btnshowRecords = new System.Windows.Forms.Button();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.showFine = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.txtUserid = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.BookId = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.tabLibrarians.SuspendLayout();
             this.tabBorrowed.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Borrowedbooks)).BeginInit();
+            this.tabLibrarian.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bookStatus)).BeginInit();
             this.tabOverdue3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.overdue_logbooks)).BeginInit();
+            this.tabPenalties.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -122,11 +127,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Borrowedbooks)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bookStatus)).BeginInit();
-            this.tabLibrarian.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.overdue_logbooks)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -154,13 +154,14 @@
             this.tabLibrarians.Controls.Add(this.tabBorrowed);
             this.tabLibrarians.Controls.Add(this.tabLibrarian);
             this.tabLibrarians.Controls.Add(this.tabOverdue3);
-            this.tabLibrarians.Controls.Add(this.tabPage4);
+            this.tabLibrarians.Controls.Add(this.tabPenalties);
             this.tabLibrarians.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabLibrarians.Location = new System.Drawing.Point(283, 37);
+            this.tabLibrarians.Location = new System.Drawing.Point(247, 24);
             this.tabLibrarians.Name = "tabLibrarians";
             this.tabLibrarians.SelectedIndex = 0;
-            this.tabLibrarians.Size = new System.Drawing.Size(515, 459);
+            this.tabLibrarians.Size = new System.Drawing.Size(572, 489);
             this.tabLibrarians.TabIndex = 34;
+            this.tabLibrarians.SelectedIndexChanged += new System.EventHandler(this.tabReturn_SelectedIndexChanged);
             // 
             // tabBorrowed
             // 
@@ -181,10 +182,204 @@
             this.tabBorrowed.Location = new System.Drawing.Point(4, 24);
             this.tabBorrowed.Name = "tabBorrowed";
             this.tabBorrowed.Padding = new System.Windows.Forms.Padding(3);
-            this.tabBorrowed.Size = new System.Drawing.Size(507, 431);
+            this.tabBorrowed.Size = new System.Drawing.Size(564, 461);
             this.tabBorrowed.TabIndex = 0;
             this.tabBorrowed.Text = "Borrowed Books";
             this.tabBorrowed.Click += new System.EventHandler(this.tabBorrowed_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(111, 105);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(52, 16);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Book ID";
+            // 
+            // BookId
+            // 
+            this.BookId.Location = new System.Drawing.Point(197, 100);
+            this.BookId.Name = "BookId";
+            this.BookId.Size = new System.Drawing.Size(193, 21);
+            this.BookId.TabIndex = 11;
+            this.BookId.TextChanged += new System.EventHandler(this.BookId_TextChanged);
+            // 
+            // Borrowedbooks
+            // 
+            this.Borrowedbooks.BackgroundColor = System.Drawing.Color.White;
+            this.Borrowedbooks.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Borrowedbooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Borrowedbooks.Location = new System.Drawing.Point(21, 222);
+            this.Borrowedbooks.Name = "Borrowedbooks";
+            this.Borrowedbooks.Size = new System.Drawing.Size(518, 225);
+            this.Borrowedbooks.TabIndex = 10;
+            this.Borrowedbooks.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Borrowedbooks_CellContentClick);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(111, 78);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(47, 16);
+            this.label10.TabIndex = 9;
+            this.label10.Text = "User ID";
+            // 
+            // duedate
+            // 
+            this.duedate.CalendarFont = new System.Drawing.Font("Century Gothic", 7.25F, System.Drawing.FontStyle.Bold);
+            this.duedate.CalendarForeColor = System.Drawing.SystemColors.GrayText;
+            this.duedate.Location = new System.Drawing.Point(197, 157);
+            this.duedate.Name = "duedate";
+            this.duedate.Size = new System.Drawing.Size(193, 21);
+            this.duedate.TabIndex = 8;
+            this.duedate.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(111, 163);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(57, 15);
+            this.label9.TabIndex = 7;
+            this.label9.Text = "Due Date";
+            // 
+            // borrow
+            // 
+            this.borrow.BackColor = System.Drawing.Color.LimeGreen;
+            this.borrow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.borrow.ForeColor = System.Drawing.Color.White;
+            this.borrow.Location = new System.Drawing.Point(241, 187);
+            this.borrow.Name = "borrow";
+            this.borrow.Size = new System.Drawing.Size(75, 27);
+            this.borrow.TabIndex = 6;
+            this.borrow.Text = "Borrow";
+            this.borrow.UseVisualStyleBackColor = false;
+            this.borrow.Click += new System.EventHandler(this.borrow_Click);
+            // 
+            // borrowdate
+            // 
+            this.borrowdate.CalendarFont = new System.Drawing.Font("Century Gothic", 7.25F, System.Drawing.FontStyle.Bold);
+            this.borrowdate.CalendarForeColor = System.Drawing.Color.DimGray;
+            this.borrowdate.CalendarTitleForeColor = System.Drawing.Color.DimGray;
+            this.borrowdate.Location = new System.Drawing.Point(197, 128);
+            this.borrowdate.Name = "borrowdate";
+            this.borrowdate.Size = new System.Drawing.Size(193, 21);
+            this.borrowdate.TabIndex = 5;
+            this.borrowdate.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold);
+            this.label8.Location = new System.Drawing.Point(111, 133);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(78, 16);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "Borrow Date";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(193, 30);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(195, 19);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Borrow from ReadSpace";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // UserId
+            // 
+            this.UserId.Location = new System.Drawing.Point(197, 73);
+            this.UserId.Name = "UserId";
+            this.UserId.Size = new System.Drawing.Size(193, 21);
+            this.UserId.TabIndex = 0;
+            this.UserId.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // tabLibrarian
+            // 
+            this.tabLibrarian.BackColor = System.Drawing.Color.White;
+            this.tabLibrarian.Controls.Add(this.label12);
+            this.tabLibrarian.Controls.Add(this.bookStatus);
+            this.tabLibrarian.Controls.Add(this.label11);
+            this.tabLibrarian.Controls.Add(this.button2);
+            this.tabLibrarian.Controls.Add(this.txtBookID);
+            this.tabLibrarian.Controls.Add(this.label15);
+            this.tabLibrarian.ForeColor = System.Drawing.Color.DimGray;
+            this.tabLibrarian.Location = new System.Drawing.Point(4, 24);
+            this.tabLibrarian.Name = "tabLibrarian";
+            this.tabLibrarian.Padding = new System.Windows.Forms.Padding(3);
+            this.tabLibrarian.Size = new System.Drawing.Size(564, 461);
+            this.tabLibrarian.TabIndex = 1;
+            this.tabLibrarian.Text = "Return Book";
+            this.tabLibrarian.Click += new System.EventHandler(this.tabLibrarian_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label12.Location = new System.Drawing.Point(197, 62);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(100, 19);
+            this.label12.TabIndex = 22;
+            this.label12.Text = "ReadSpace";
+            // 
+            // bookStatus
+            // 
+            this.bookStatus.BackgroundColor = System.Drawing.Color.White;
+            this.bookStatus.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.bookStatus.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.bookStatus.Location = new System.Drawing.Point(21, 199);
+            this.bookStatus.Name = "bookStatus";
+            this.bookStatus.Size = new System.Drawing.Size(518, 239);
+            this.bookStatus.TabIndex = 21;
+            this.bookStatus.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bookStatus_CellContentClick);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(121, 116);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(52, 16);
+            this.label11.TabIndex = 20;
+            this.label11.Text = "Book ID";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.LimeGreen;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(212, 152);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 27);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "Return";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // txtBookID
+            // 
+            this.txtBookID.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBookID.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBookID.Location = new System.Drawing.Point(188, 111);
+            this.txtBookID.Name = "txtBookID";
+            this.txtBookID.Size = new System.Drawing.Size(143, 22);
+            this.txtBookID.TabIndex = 14;
+            this.txtBookID.TextChanged += new System.EventHandler(this.txtBookID_TextChanged);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label15.Location = new System.Drawing.Point(184, 39);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(123, 19);
+            this.label15.TabIndex = 12;
+            this.label15.Text = "Return Books to";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // tabOverdue3
             // 
@@ -197,28 +392,136 @@
             this.tabOverdue3.Location = new System.Drawing.Point(4, 24);
             this.tabOverdue3.Name = "tabOverdue3";
             this.tabOverdue3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabOverdue3.Size = new System.Drawing.Size(434, 431);
+            this.tabOverdue3.Size = new System.Drawing.Size(507, 431);
             this.tabOverdue3.TabIndex = 2;
             this.tabOverdue3.Text = "Overdue Log Books";
             this.tabOverdue3.Click += new System.EventHandler(this.tabOverdue3_Click);
             // 
-            // tabPage4
+            // label13
             // 
-            this.tabPage4.BackColor = System.Drawing.Color.White;
-            this.tabPage4.Controls.Add(this.label18);
-            this.tabPage4.Controls.Add(this.txtUserid);
-            this.tabPage4.Controls.Add(this.label14);
-            this.tabPage4.Controls.Add(this.dataGridView3);
-            this.tabPage4.Controls.Add(this.showFine);
-            this.tabPage4.Controls.Add(this.label17);
-            this.tabPage4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage4.ForeColor = System.Drawing.Color.DimGray;
-            this.tabPage4.Location = new System.Drawing.Point(4, 24);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(434, 431);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Penalties";
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label13.Location = new System.Drawing.Point(180, 58);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(139, 19);
+            this.label13.TabIndex = 28;
+            this.label13.Text = "from ReadSpace";
+            // 
+            // overdue_logbooks
+            // 
+            this.overdue_logbooks.BackgroundColor = System.Drawing.Color.White;
+            this.overdue_logbooks.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.overdue_logbooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.overdue_logbooks.Location = new System.Drawing.Point(19, 143);
+            this.overdue_logbooks.Name = "overdue_logbooks";
+            this.overdue_logbooks.Size = new System.Drawing.Size(462, 265);
+            this.overdue_logbooks.TabIndex = 27;
+            this.overdue_logbooks.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.overdue_logbooks_CellContentClick);
+            // 
+            // btnshowRecords
+            // 
+            this.btnshowRecords.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnshowRecords.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnshowRecords.ForeColor = System.Drawing.Color.White;
+            this.btnshowRecords.Location = new System.Drawing.Point(193, 105);
+            this.btnshowRecords.Name = "btnshowRecords";
+            this.btnshowRecords.Size = new System.Drawing.Size(112, 27);
+            this.btnshowRecords.TabIndex = 25;
+            this.btnshowRecords.Text = "Show Records";
+            this.btnshowRecords.UseVisualStyleBackColor = false;
+            this.btnshowRecords.Click += new System.EventHandler(this.btnshowRecords_Click);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label16.Location = new System.Drawing.Point(151, 37);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(202, 19);
+            this.label16.TabIndex = 23;
+            this.label16.Text = "Record of Overdue Books";
+            // 
+            // tabPenalties
+            // 
+            this.tabPenalties.BackColor = System.Drawing.Color.White;
+            this.tabPenalties.Controls.Add(this.label18);
+            this.tabPenalties.Controls.Add(this.txtUserid);
+            this.tabPenalties.Controls.Add(this.label14);
+            this.tabPenalties.Controls.Add(this.dataGridView3);
+            this.tabPenalties.Controls.Add(this.showFine);
+            this.tabPenalties.Controls.Add(this.label17);
+            this.tabPenalties.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPenalties.ForeColor = System.Drawing.Color.DimGray;
+            this.tabPenalties.Location = new System.Drawing.Point(4, 24);
+            this.tabPenalties.Name = "tabPenalties";
+            this.tabPenalties.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPenalties.Size = new System.Drawing.Size(507, 431);
+            this.tabPenalties.TabIndex = 3;
+            this.tabPenalties.Text = "Penalties";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(144, 97);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(47, 16);
+            this.label18.TabIndex = 34;
+            this.label18.Text = "User ID";
+            // 
+            // txtUserid
+            // 
+            this.txtUserid.Location = new System.Drawing.Point(197, 92);
+            this.txtUserid.Name = "txtUserid";
+            this.txtUserid.Size = new System.Drawing.Size(143, 21);
+            this.txtUserid.TabIndex = 33;
+            this.txtUserid.TextChanged += new System.EventHandler(this.txtUserid_TextChanged);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label14.Location = new System.Drawing.Point(206, 54);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(77, 19);
+            this.label14.TabIndex = 32;
+            this.label14.Text = "Penalties";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Location = new System.Drawing.Point(21, 169);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.Size = new System.Drawing.Size(461, 233);
+            this.dataGridView3.TabIndex = 31;
+            this.dataGridView3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellContentClick);
+            // 
+            // showFine
+            // 
+            this.showFine.BackColor = System.Drawing.Color.LimeGreen;
+            this.showFine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.showFine.ForeColor = System.Drawing.Color.White;
+            this.showFine.Location = new System.Drawing.Point(197, 129);
+            this.showFine.Name = "showFine";
+            this.showFine.Size = new System.Drawing.Size(112, 27);
+            this.showFine.TabIndex = 30;
+            this.showFine.Text = "Show Fines";
+            this.showFine.UseVisualStyleBackColor = false;
+            this.showFine.Click += new System.EventHandler(this.showFine_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label17.Location = new System.Drawing.Point(170, 32);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(153, 19);
+            this.label17.TabIndex = 29;
+            this.label17.Text = "User of ReadSpace";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
             // pictureBox5
             // 
@@ -603,303 +906,6 @@
             this.pictureBox15.TabIndex = 4;
             this.pictureBox15.TabStop = false;
             // 
-            // UserId
-            // 
-            this.UserId.Location = new System.Drawing.Point(161, 76);
-            this.UserId.Name = "UserId";
-            this.UserId.Size = new System.Drawing.Size(193, 21);
-            this.UserId.TabIndex = 0;
-            this.UserId.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(126, 32);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(195, 19);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Borrow from ReadSpace";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(75, 136);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(78, 16);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "Borrow Date";
-            // 
-            // borrowdate
-            // 
-            this.borrowdate.CalendarFont = new System.Drawing.Font("Century Gothic", 7.25F, System.Drawing.FontStyle.Bold);
-            this.borrowdate.CalendarForeColor = System.Drawing.Color.DimGray;
-            this.borrowdate.CalendarTitleForeColor = System.Drawing.Color.DimGray;
-            this.borrowdate.Location = new System.Drawing.Point(161, 131);
-            this.borrowdate.Name = "borrowdate";
-            this.borrowdate.Size = new System.Drawing.Size(193, 21);
-            this.borrowdate.TabIndex = 5;
-            this.borrowdate.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
-            // 
-            // borrow
-            // 
-            this.borrow.BackColor = System.Drawing.Color.LimeGreen;
-            this.borrow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.borrow.ForeColor = System.Drawing.Color.White;
-            this.borrow.Location = new System.Drawing.Point(179, 190);
-            this.borrow.Name = "borrow";
-            this.borrow.Size = new System.Drawing.Size(75, 27);
-            this.borrow.TabIndex = 6;
-            this.borrow.Text = "Borrow";
-            this.borrow.UseVisualStyleBackColor = false;
-            this.borrow.Click += new System.EventHandler(this.borrow_Click);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(75, 166);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(57, 15);
-            this.label9.TabIndex = 7;
-            this.label9.Text = "Due Date";
-            // 
-            // duedate
-            // 
-            this.duedate.CalendarFont = new System.Drawing.Font("Century Gothic", 7.25F, System.Drawing.FontStyle.Bold);
-            this.duedate.CalendarForeColor = System.Drawing.SystemColors.GrayText;
-            this.duedate.Location = new System.Drawing.Point(161, 160);
-            this.duedate.Name = "duedate";
-            this.duedate.Size = new System.Drawing.Size(193, 21);
-            this.duedate.TabIndex = 8;
-            this.duedate.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(75, 81);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(47, 16);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "User ID";
-            // 
-            // Borrowedbooks
-            // 
-            this.Borrowedbooks.BackgroundColor = System.Drawing.Color.White;
-            this.Borrowedbooks.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Borrowedbooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Borrowedbooks.Location = new System.Drawing.Point(21, 222);
-            this.Borrowedbooks.Name = "Borrowedbooks";
-            this.Borrowedbooks.Size = new System.Drawing.Size(459, 184);
-            this.Borrowedbooks.TabIndex = 10;
-            this.Borrowedbooks.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Borrowedbooks_CellContentClick);
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.label15.Location = new System.Drawing.Point(184, 39);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(123, 19);
-            this.label15.TabIndex = 12;
-            this.label15.Text = "Return Books to";
-            this.label15.Click += new System.EventHandler(this.label15_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.LimeGreen;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(212, 152);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 27);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Return";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(121, 116);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(52, 16);
-            this.label11.TabIndex = 20;
-            this.label11.Text = "Book ID";
-            // 
-            // bookStatus
-            // 
-            this.bookStatus.BackgroundColor = System.Drawing.Color.White;
-            this.bookStatus.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.bookStatus.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.bookStatus.Location = new System.Drawing.Point(21, 199);
-            this.bookStatus.Name = "bookStatus";
-            this.bookStatus.Size = new System.Drawing.Size(468, 215);
-            this.bookStatus.TabIndex = 21;
-            this.bookStatus.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bookStatus_CellContentClick);
-            // 
-            // tabLibrarian
-            // 
-            this.tabLibrarian.BackColor = System.Drawing.Color.White;
-            this.tabLibrarian.Controls.Add(this.label12);
-            this.tabLibrarian.Controls.Add(this.bookStatus);
-            this.tabLibrarian.Controls.Add(this.label11);
-            this.tabLibrarian.Controls.Add(this.button2);
-            this.tabLibrarian.Controls.Add(this.txtBookID);
-            this.tabLibrarian.Controls.Add(this.label15);
-            this.tabLibrarian.ForeColor = System.Drawing.Color.DimGray;
-            this.tabLibrarian.Location = new System.Drawing.Point(4, 24);
-            this.tabLibrarian.Name = "tabLibrarian";
-            this.tabLibrarian.Padding = new System.Windows.Forms.Padding(3);
-            this.tabLibrarian.Size = new System.Drawing.Size(507, 431);
-            this.tabLibrarian.TabIndex = 1;
-            this.tabLibrarian.Text = "Return Book";
-            // 
-            // txtBookID
-            // 
-            this.txtBookID.Location = new System.Drawing.Point(188, 111);
-            this.txtBookID.Name = "txtBookID";
-            this.txtBookID.Size = new System.Drawing.Size(143, 21);
-            this.txtBookID.TabIndex = 14;
-            this.txtBookID.TextChanged += new System.EventHandler(this.txtBookID_TextChanged);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.label12.Location = new System.Drawing.Point(197, 62);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(100, 19);
-            this.label12.TabIndex = 22;
-            this.label12.Text = "ReadSpace";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.label13.Location = new System.Drawing.Point(152, 55);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(139, 19);
-            this.label13.TabIndex = 28;
-            this.label13.Text = "from ReadSpace";
-            // 
-            // overdue_logbooks
-            // 
-            this.overdue_logbooks.BackgroundColor = System.Drawing.Color.White;
-            this.overdue_logbooks.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.overdue_logbooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.overdue_logbooks.Location = new System.Drawing.Point(19, 143);
-            this.overdue_logbooks.Name = "overdue_logbooks";
-            this.overdue_logbooks.Size = new System.Drawing.Size(393, 265);
-            this.overdue_logbooks.TabIndex = 27;
-            this.overdue_logbooks.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.overdue_logbooks_CellContentClick);
-            // 
-            // btnshowRecords
-            // 
-            this.btnshowRecords.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnshowRecords.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnshowRecords.ForeColor = System.Drawing.Color.White;
-            this.btnshowRecords.Location = new System.Drawing.Point(157, 103);
-            this.btnshowRecords.Name = "btnshowRecords";
-            this.btnshowRecords.Size = new System.Drawing.Size(112, 27);
-            this.btnshowRecords.TabIndex = 25;
-            this.btnshowRecords.Text = "Show Records";
-            this.btnshowRecords.UseVisualStyleBackColor = false;
-            this.btnshowRecords.Click += new System.EventHandler(this.btnshowRecords_Click);
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.label16.Location = new System.Drawing.Point(123, 34);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(202, 19);
-            this.label16.TabIndex = 23;
-            this.label16.Text = "Record of Overdue Books";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.label14.Location = new System.Drawing.Point(168, 58);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(77, 19);
-            this.label14.TabIndex = 32;
-            this.label14.Text = "Penalties";
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(21, 169);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(393, 233);
-            this.dataGridView3.TabIndex = 31;
-            this.dataGridView3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellContentClick);
-            // 
-            // showFine
-            // 
-            this.showFine.BackColor = System.Drawing.Color.LimeGreen;
-            this.showFine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.showFine.ForeColor = System.Drawing.Color.White;
-            this.showFine.Location = new System.Drawing.Point(159, 133);
-            this.showFine.Name = "showFine";
-            this.showFine.Size = new System.Drawing.Size(112, 27);
-            this.showFine.TabIndex = 30;
-            this.showFine.Text = "Show Fines";
-            this.showFine.UseVisualStyleBackColor = false;
-            this.showFine.Click += new System.EventHandler(this.showFine_Click);
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.label17.Location = new System.Drawing.Point(132, 36);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(153, 19);
-            this.label17.TabIndex = 29;
-            this.label17.Text = "User of ReadSpace";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(106, 101);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(47, 16);
-            this.label18.TabIndex = 34;
-            this.label18.Text = "User ID";
-            // 
-            // txtUserid
-            // 
-            this.txtUserid.Location = new System.Drawing.Point(159, 96);
-            this.txtUserid.Name = "txtUserid";
-            this.txtUserid.Size = new System.Drawing.Size(143, 21);
-            this.txtUserid.TabIndex = 33;
-            this.txtUserid.TextChanged += new System.EventHandler(this.txtUserid_TextChanged);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(75, 108);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 16);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Book ID";
-            // 
-            // BookId
-            // 
-            this.BookId.Location = new System.Drawing.Point(161, 103);
-            this.BookId.Name = "BookId";
-            this.BookId.Size = new System.Drawing.Size(193, 21);
-            this.BookId.TabIndex = 11;
-            this.BookId.TextChanged += new System.EventHandler(this.BookId_TextChanged);
-            // 
             // Reports
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -916,10 +922,16 @@
             this.tabLibrarians.ResumeLayout(false);
             this.tabBorrowed.ResumeLayout(false);
             this.tabBorrowed.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Borrowedbooks)).EndInit();
+            this.tabLibrarian.ResumeLayout(false);
+            this.tabLibrarian.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bookStatus)).EndInit();
             this.tabOverdue3.ResumeLayout(false);
             this.tabOverdue3.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.overdue_logbooks)).EndInit();
+            this.tabPenalties.ResumeLayout(false);
+            this.tabPenalties.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -945,12 +957,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Borrowedbooks)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bookStatus)).EndInit();
-            this.tabLibrarian.ResumeLayout(false);
-            this.tabLibrarian.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.overdue_logbooks)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -993,7 +999,7 @@
         private System.Windows.Forms.TabControl tabLibrarians;
         private System.Windows.Forms.TabPage tabBorrowed;
         private System.Windows.Forms.TabPage tabOverdue3;
-        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabPage tabPenalties;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox UserId;
         private System.Windows.Forms.DateTimePicker duedate;

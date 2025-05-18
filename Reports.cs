@@ -83,6 +83,7 @@ namespace Activity7
                     Borrowedbooks.EnableHeadersVisualStyles = false; // Ensures custom header styles apply
                     Borrowedbooks.AllowUserToAddRows = false;
                     Borrowedbooks.RowHeadersVisible = false;
+                    Borrowedbooks.ReadOnly = true;
 
 
                     Borrowedbooks.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill; // Optional: fills grid
@@ -94,6 +95,49 @@ namespace Activity7
             }
         }
 
+
+        private void LoadBooks()
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "SELECT book_id, title, status FROM books";
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
+                    DataTable dt = new DataTable();
+                    adapter.Fill(dt);
+
+                    Borrowedbooks.DataSource = dt;
+
+                    // Customize DataGridView appearance
+                    Borrowedbooks.ColumnHeadersDefaultCellStyle.BackColor = Color.DimGray;
+                    Borrowedbooks.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+                    Borrowedbooks.ColumnHeadersDefaultCellStyle.Font = new Font("Century Gothic", 10, FontStyle.Bold);
+
+                    Borrowedbooks.DefaultCellStyle.Font = new Font("Century Gothic", 10);
+                    Borrowedbooks.DefaultCellStyle.ForeColor = Color.DimGray;
+                    Borrowedbooks.DefaultCellStyle.SelectionBackColor = Color.LightGray;
+                    Borrowedbooks.DefaultCellStyle.SelectionForeColor = Color.White;
+
+                    Borrowedbooks.Columns["book_id"].HeaderText = "Book ID";
+                    Borrowedbooks.Columns["title"].HeaderText = "Title";
+                    Borrowedbooks.Columns["status"].HeaderText = "Status";
+
+                    Borrowedbooks.EnableHeadersVisualStyles = false; // Ensures custom header styles apply
+                    Borrowedbooks.AllowUserToAddRows = false;
+                    Borrowedbooks.RowHeadersVisible = false;
+                    Borrowedbooks.ReadOnly = true;
+
+
+                    Borrowedbooks.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill; // Optional: fills grid
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error loading books: " + ex.Message);
+                }
+            }
+        }
 
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
@@ -148,17 +192,55 @@ namespace Activity7
 
         private void button2_Click(object sender, EventArgs e)
         {
+            string bookId = txtBookID.Text.Trim();
 
+            if (string.IsNullOrEmpty(bookId))
+            {
+                MessageBox.Show("Please enter a Book ID to return.");
+                return;
+            }
+                
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    string checkQuery = "SELECT COUNT(*) FROM borrowedbooks WHERE book_id = @book_id AND return_date >= CURDATE()";
+                    MySqlCommand checkCmd = new MySqlCommand(checkQuery, conn);
+                    checkCmd.Parameters.AddWithValue("@book_id", bookId);
+                    int count = Convert.ToInt32(checkCmd.ExecuteScalar());
+
+                    // Update book status to available
+                    string updateQuery = "UPDATE books SET status = 'available' WHERE book_id = @book_id";
+                    MySqlCommand cmd = new MySqlCommand(updateQuery, conn);
+                    cmd.Parameters.AddWithValue("@book_id", bookId);
+                    int rowsAffected = cmd.ExecuteNonQuery();
+
+                    if (rowsAffected > 0)
+                    {
+                        MessageBox.Show($"Book ID {bookId} returned successfully!");
+                        LoadBorrowedBooks(); // Refresh the grid
+                    }
+                    else
+                    {
+                        MessageBox.Show("Book ID not found or already returned.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error updating book status: " + ex.Message);
+                }
+            }
         }
 
         private void bookStatus_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+           
         }
 
         private void btnshowRecords_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void overdue_logbooks_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -183,10 +265,33 @@ namespace Activity7
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            LoadBorrowedBooks();
+           
         }
 
         private void BookId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabLibrarian_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void tabReturn_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        }
+        private void tabLibrarians_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
         {
 
         }
