@@ -122,6 +122,7 @@
             this.innerborrow.Name = "innerborrow";
             this.innerborrow.Size = new System.Drawing.Size(538, 452);
             this.innerborrow.TabIndex = 36;
+            this.innerborrow.Paint += new System.Windows.Forms.PaintEventHandler(this.innerborrow_Paint);
             // 
             // updateSal
             // 
@@ -135,13 +136,17 @@
             this.updateSal.TabIndex = 41;
             this.updateSal.Text = "Update";
             this.updateSal.UseVisualStyleBackColor = false;
+            this.updateSal.Click += new System.EventHandler(this.updateSal_Click);
             // 
             // salary
             // 
+            this.salary.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.salary.ForeColor = System.Drawing.Color.DimGray;
             this.salary.Location = new System.Drawing.Point(163, 144);
             this.salary.Name = "salary";
-            this.salary.Size = new System.Drawing.Size(193, 20);
+            this.salary.Size = new System.Drawing.Size(193, 21);
             this.salary.TabIndex = 32;
+            this.salary.TextChanged += new System.EventHandler(this.salary_TextChanged);
             // 
             // label5
             // 
@@ -156,10 +161,13 @@
             // 
             // name
             // 
+            this.name.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name.ForeColor = System.Drawing.Color.DimGray;
             this.name.Location = new System.Drawing.Point(163, 91);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(193, 20);
+            this.name.Size = new System.Drawing.Size(193, 21);
             this.name.TabIndex = 30;
+            this.name.TextChanged += new System.EventHandler(this.name_TextChanged);
             // 
             // label10
             // 
@@ -181,6 +189,7 @@
             this.Borrowedbooks.Name = "Borrowedbooks";
             this.Borrowedbooks.Size = new System.Drawing.Size(503, 217);
             this.Borrowedbooks.TabIndex = 21;
+            this.Borrowedbooks.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Borrowedbooks_CellContentClick);
             // 
             // label6
             // 
@@ -464,15 +473,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MintCream;
             this.ClientSize = new System.Drawing.Size(800, 507);
+            this.Controls.Add(this.innerborrow);
             this.Controls.Add(this.btnLibrarian);
             this.Controls.Add(this.btnReserve);
-            this.Controls.Add(this.innerborrow);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnborrow);
             this.Name = "LIbrarian";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Librarian";
+            this.Load += new System.EventHandler(this.LIbrarian_Load);
             this.innerborrow.ResumeLayout(false);
             this.innerborrow.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Borrowedbooks)).EndInit();
