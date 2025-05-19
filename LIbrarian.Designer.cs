@@ -130,7 +130,7 @@
             this.updateSal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.updateSal.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updateSal.ForeColor = System.Drawing.Color.White;
-            this.updateSal.Location = new System.Drawing.Point(223, 175);
+            this.updateSal.Location = new System.Drawing.Point(223, 168);
             this.updateSal.Name = "updateSal";
             this.updateSal.Size = new System.Drawing.Size(75, 27);
             this.updateSal.TabIndex = 41;
@@ -142,7 +142,7 @@
             // 
             this.salary.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.salary.ForeColor = System.Drawing.Color.DimGray;
-            this.salary.Location = new System.Drawing.Point(163, 144);
+            this.salary.Location = new System.Drawing.Point(163, 137);
             this.salary.Name = "salary";
             this.salary.Size = new System.Drawing.Size(193, 21);
             this.salary.TabIndex = 32;
@@ -153,7 +153,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DimGray;
-            this.label5.Location = new System.Drawing.Point(160, 124);
+            this.label5.Location = new System.Drawing.Point(160, 117);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(43, 16);
             this.label5.TabIndex = 31;
@@ -163,7 +163,7 @@
             // 
             this.name.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name.ForeColor = System.Drawing.Color.DimGray;
-            this.name.Location = new System.Drawing.Point(163, 91);
+            this.name.Location = new System.Drawing.Point(163, 84);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(193, 21);
             this.name.TabIndex = 30;
@@ -174,7 +174,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.DimGray;
-            this.label10.Location = new System.Drawing.Point(161, 71);
+            this.label10.Location = new System.Drawing.Point(161, 64);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(43, 16);
             this.label10.TabIndex = 29;
@@ -196,7 +196,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.DimGray;
-            this.label6.Location = new System.Drawing.Point(166, 35);
+            this.label6.Location = new System.Drawing.Point(166, 28);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(190, 19);
             this.label6.TabIndex = 14;

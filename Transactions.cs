@@ -251,5 +251,12 @@ namespace Activity7
         {
 
         }
+
+        private void genReport_Click(object sender, EventArgs e)
+        {
+            Generate_Report myform = new Generate_Report();
+            myform.Show();
+            this.Hide();
+        }
     }
 }

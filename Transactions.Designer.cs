@@ -70,6 +70,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnReserve = new System.Windows.Forms.Button();
             this.btnLibrarian = new System.Windows.Forms.Button();
+            this.genReport = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Borrowedbooks)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -568,12 +569,27 @@
             this.btnLibrarian.UseVisualStyleBackColor = false;
             this.btnLibrarian.Click += new System.EventHandler(this.btnLibrarian_Click);
             // 
+            // genReport
+            // 
+            this.genReport.BackColor = System.Drawing.Color.LimeGreen;
+            this.genReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.genReport.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            this.genReport.ForeColor = System.Drawing.Color.White;
+            this.genReport.Location = new System.Drawing.Point(656, 16);
+            this.genReport.Name = "genReport";
+            this.genReport.Size = new System.Drawing.Size(118, 22);
+            this.genReport.TabIndex = 33;
+            this.genReport.Text = "Generate Report";
+            this.genReport.UseVisualStyleBackColor = false;
+            this.genReport.Click += new System.EventHandler(this.genReport_Click);
+            // 
             // Transactions
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
             this.ClientSize = new System.Drawing.Size(800, 507);
+            this.Controls.Add(this.genReport);
             this.Controls.Add(this.innerborrow);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnborrow);
@@ -646,5 +662,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox bookId;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button genReport;
     }
 }
