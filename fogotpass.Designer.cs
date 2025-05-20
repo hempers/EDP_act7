@@ -76,9 +76,11 @@
             // Email
             // 
             this.Email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Email.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Email.ForeColor = System.Drawing.Color.DimGray;
             this.Email.Location = new System.Drawing.Point(45, 152);
             this.Email.Name = "Email";
-            this.Email.Size = new System.Drawing.Size(304, 20);
+            this.Email.Size = new System.Drawing.Size(304, 21);
             this.Email.TabIndex = 18;
             this.Email.TextChanged += new System.EventHandler(this.Email_TextChanged);
             // 

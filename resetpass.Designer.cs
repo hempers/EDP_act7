@@ -58,9 +58,11 @@
             // confirmPasswordTextBox
             // 
             this.confirmPasswordTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.confirmPasswordTextBox.Font = new System.Drawing.Font("Century Gothic", 8.25F);
+            this.confirmPasswordTextBox.ForeColor = System.Drawing.Color.DimGray;
             this.confirmPasswordTextBox.Location = new System.Drawing.Point(56, 194);
             this.confirmPasswordTextBox.Name = "confirmPasswordTextBox";
-            this.confirmPasswordTextBox.Size = new System.Drawing.Size(304, 20);
+            this.confirmPasswordTextBox.Size = new System.Drawing.Size(304, 21);
             this.confirmPasswordTextBox.TabIndex = 22;
             this.confirmPasswordTextBox.TextChanged += new System.EventHandler(this.confirmPasswordTextBox_TextChanged);
             // 
@@ -94,9 +96,11 @@
             // newPasswordTextBox
             // 
             this.newPasswordTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.newPasswordTextBox.Font = new System.Drawing.Font("Century Gothic", 8.25F);
+            this.newPasswordTextBox.ForeColor = System.Drawing.Color.DimGray;
             this.newPasswordTextBox.Location = new System.Drawing.Point(56, 142);
             this.newPasswordTextBox.Name = "newPasswordTextBox";
-            this.newPasswordTextBox.Size = new System.Drawing.Size(304, 20);
+            this.newPasswordTextBox.Size = new System.Drawing.Size(304, 21);
             this.newPasswordTextBox.TabIndex = 18;
             this.newPasswordTextBox.TextChanged += new System.EventHandler(this.newPasswordTextBox_TextChanged);
             // 

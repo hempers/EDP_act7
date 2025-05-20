@@ -144,7 +144,7 @@ namespace Activity7
 
                 case "All Borrowed Books":
                     query = @"SELECT b.borrow_id AS borrow_id, u.name AS user_name, bk.title AS book_title, 
-                             b.borrow_date, b.return_date, b.status
+                             b.borrow_date, b.return_date
                       FROM borrowedbooks b
                       JOIN users u ON b.user_id = u.user_id
                       JOIN books bk ON b.book_id = bk.book_id
