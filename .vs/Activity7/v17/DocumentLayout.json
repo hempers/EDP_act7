@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\resetpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:resetpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\resetsuccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:resetsuccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\fogotpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:fogotpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\fogotpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:fogotpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\generate report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:generate report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\generate report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:generate report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\reserve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:reserve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\managelibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:managelibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\edituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:edituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\deleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:deleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\createuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:createuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\manage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:manage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\otpconfirmationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:otpconfirmationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|c:\\users\\maean\\documents\\3rd year 2nd sem\\edp\\edp_act7\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D22032C-5D71-4FF1-98D7-8220B18B687B}|Activity7.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fogotpass.cs",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\fogotpass.cs",
+              "RelativeDocumentMoniker": "fogotpass.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\fogotpass.cs",
+              "RelativeToolTip": "fogotpass.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAwwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:59:59.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Generate Report.cs",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\Generate Report.cs",
+              "RelativeDocumentMoniker": "Generate Report.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\Generate Report.cs",
+              "RelativeToolTip": "Generate Report.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAwwOcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:47:49.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fogotpass.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\fogotpass.cs",
+              "RelativeDocumentMoniker": "fogotpass.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\fogotpass.cs [Design]",
+              "RelativeToolTip": "fogotpass.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:44:37.984Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "resetsuccess.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\resetsuccess.cs",
+              "RelativeDocumentMoniker": "resetsuccess.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\resetsuccess.cs [Design]",
+              "RelativeToolTip": "resetsuccess.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:45:11.149Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "resetpass.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\resetpass.cs",
+              "RelativeDocumentMoniker": "resetpass.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\resetpass.cs [Design]",
+              "RelativeToolTip": "resetpass.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:44:59.88Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\UserView.cs",
+              "RelativeDocumentMoniker": "UserView.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\UserView.cs [Design]",
+              "RelativeToolTip": "UserView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:46:58.505Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Reserve.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\Reserve.cs",
+              "RelativeDocumentMoniker": "Reserve.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\Reserve.cs [Design]",
+              "RelativeToolTip": "Reserve.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:47:11.322Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LIbrarian.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\LIbrarian.cs",
+              "RelativeDocumentMoniker": "LIbrarian.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\LIbrarian.cs [Design]",
+              "RelativeToolTip": "LIbrarian.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:47:20.987Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Generate Report.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\Generate Report.cs",
+              "RelativeDocumentMoniker": "Generate Report.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\Generate Report.cs [Design]",
+              "RelativeToolTip": "Generate Report.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:47:45.84Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Transactions.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\Transactions.cs",
+              "RelativeDocumentMoniker": "Transactions.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\Transactions.cs [Design]",
+              "RelativeToolTip": "Transactions.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:46:37.62Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ManageLibrary.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\ManageLibrary.cs",
+              "RelativeDocumentMoniker": "ManageLibrary.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\ManageLibrary.cs [Design]",
+              "RelativeToolTip": "ManageLibrary.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:46:26.18Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\EditUser.cs",
+              "RelativeDocumentMoniker": "EditUser.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\EditUser.cs [Design]",
+              "RelativeToolTip": "EditUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:46:11.496Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeleteUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\DeleteUser.cs",
+              "RelativeDocumentMoniker": "DeleteUser.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\DeleteUser.cs [Design]",
+              "RelativeToolTip": "DeleteUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:45:57.046Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\CreateUser.cs",
+              "RelativeDocumentMoniker": "CreateUser.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\CreateUser.cs [Design]",
+              "RelativeToolTip": "CreateUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:45:53.927Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Manage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\Manage.cs",
+              "RelativeDocumentMoniker": "Manage.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\Manage.cs [Design]",
+              "RelativeToolTip": "Manage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:45:43.872Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OtpConfirmationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\OtpConfirmationForm.cs",
+              "RelativeDocumentMoniker": "OtpConfirmationForm.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\OtpConfirmationForm.cs [Design]",
+              "RelativeToolTip": "OtpConfirmationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:44:48.946Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\frmDashboard.cs",
+              "RelativeDocumentMoniker": "frmDashboard.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\frmDashboard.cs [Design]",
+              "RelativeToolTip": "frmDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:44:06.581Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\login.cs",
+              "RelativeDocumentMoniker": "login.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\login.cs",
+              "RelativeToolTip": "login.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAowEcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:44:20.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\login.cs",
+              "RelativeDocumentMoniker": "login.cs",
+              "ToolTip": "C:\\Users\\maean\\Documents\\3rd year 2nd sem\\EDP\\EDP_act7\\login.cs [Design]",
+              "RelativeToolTip": "login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:44:08.95Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
